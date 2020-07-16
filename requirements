@@ -1,7 +1,0 @@
-| System   | Typ| ID.      | Description  |                                                                                                                           
-|:---------|:---|:---------|:--------------------------------------------------------------------------------------------------------------------------------|
-| Roboter  | F  | **010**  | Der Roboter muss Hindernisse erkennen.| 
-| Roboter  | F  | **011**  | Der Roboter muss den Abstand zu den Hinernissen erkennen.|
-| Roboter  | NF | **012**  | Der Roboter muss mit acht Sensoren ausgestattet sein.| 
-| Roboter  | NF | **013**  | Die Sensoren müssen in gleiche Abständen am Auto angebracht sein (N, NO, O, OS, S, SW, W, WN).| 
-| Roboter  | F  | **014**  | Der Roboter Hindernissen ausweichen.| 
