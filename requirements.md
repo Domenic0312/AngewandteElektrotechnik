@@ -1,28 +1,29 @@
-| System   | Typ| ID.      | Description  |                                                                                                                           
-|:---------|:---|:---------|:--------------------------------------------------------------------------------------------------------------------------------|
-| Roboter  | F  | **010**  | Der Roboter muss Hindernisse erkennen.| 
-| Roboter  | F  | **011**  | Der Roboter muss den Abstand zu den Hinernissen erkennen.|
-| Roboter  | NF | **012**  | Der Roboter muss mit acht Sensoren ausgestattet sein.| 
-| Roboter  | NF | **013**  | Die Sensoren müssen in gleiche Abständen am Auto angebracht sein (N, NO, O, OS, S, SW, W, WN).| 
-| Roboter  | F  | **014**  | Der Roboter Hindernissen ausweichen.| 
-| Roboter  | F  | **020**  | Der Roboter auf Land fahren können.|
-| Roboter  | NF | **021**  | Die Räder am Robter müssen vier Mecanum-Räder sein.|      
-| Roboter  | F  | **030**  | Der Roboter muss durch Wasser fahren können.|    
-| Roboter  | NF | **031**  | Der Roboter muss einen Propeller besitzen.|                                                                                                                    
-| Roboter  | F  | **041**  | Der Roboter muss erkennen ob er auf Wasser oder Land fährt.|
-| Roboter  | NF | **042**  | (Der Roboter muss einen Feuchtigkeitssensor besitzten.)|
-| Roboter  | F  | **043**  | Der Roboter muss für das Fahren durch das Wasser den Propeller verwenden.|
-| Roboter  | F  | **044**  | Der Roboter muss für das Fahren auf dem Land die Räder verwenden.|
-| Roboter  | NF | **050**  | Der Roboter muss einen Kompass besitzen.|
-| Roboter  | F  | **060**  | Der Roboter muss einen Akku besitzten.|
-| Roboter  | F  | **070**  | Der Roboter muss mit dem "Umweltsystem" interagieren.|
-| Roboter  | F  | **080**  | Der Roboter muss gut sichtbar sein.|
-| Roboter  | NF | **090**  | Der Roboter muss mit vier Lichquellen ausgestattet sein. |
-| Roboter  | NF | **091**  | Die Lichtquellen müssen in gleiche Abständen am Auto angebracht sein (NO, OS, SW, WN).|
-| Roboter  | F  | **110**  | Der Roboter muss Personen identifizieren können.|
-| Roboter  | NF | **111**  | Der Roboter muss eine Kamera haben.|
-| Roboter  | F  | **112**  | Der Roboter muss nach Erkennung einer Person die Livesteuerung aktivieren.|
-| Roboter  | NF | **113**  | Der Roboter muss über einen Roboterarm verfügen (für die Livesteuerng).|
-| Roboter  | F  | **020**  | Der Roboter muss die Richtung in die er fahren möchte anzeigen.|
-| Roboter  | NF | **021**  | Der Roboter muss mit einem Display ausgestattet sein.|
-| Roboter  | NF | **022**  | Das Display muss die nächste Richtung (mit Pfeilen) anzeigen.|
+| Typ| ID.      | Description  |                                                                                                                           
+|:---|:---------|:--------------------------------------------------------------------------------------------------------------------------------|
+| F  | **010**  | Der Roboter muss Hindernisse erkennen.| 
+| F  | **011**  | Der Roboter muss den Abstand zu den Hinernissen erkennen.|
+| NF | **012**  | Der Roboter muss mit acht Sensoren ausgestattet sein.| 
+| NF | **013**  | Die Sensoren müssen in gleiche Abständen am Auto angebracht sein (N, NO, O, OS, S, SW, W, WN).| 
+| F  | **014**  | Der Roboter Hindernissen ausweichen.| 
+| F  | **020**  | Der Roboter auf Land fahren können.|
+| NF | **021**  | Die Räder am Robter müssen vier Mecanum-Räder sein.|      
+| F  | **030**  | Der Roboter muss durch Wasser fahren können.|    
+| NF | **031**  | Der Roboter muss einen Propeller besitzen.|                                    
+| F  | **041**  | Der Roboter muss erkennen ob er auf Wasser oder Land fährt.|
+| NF | **042**  | (Der Roboter muss einen Feuchtigkeitssensor besitzten.)|
+| F  | **043**  | Der Roboter muss für das Fahren durch das Wasser den Propeller verwenden.|
+| F  | **044**  | Der Roboter muss für das Fahren auf dem Land die Räder verwenden.|
+| NF | **050**  | Der Roboter muss einen Kompass besitzen.|
+| F  | **060**  | Der Roboter muss einen Akku besitzten.|
+| F  | **070**  | Der Roboter muss mit dem "Umweltsystem" interagieren.|
+| F  | **080**  | Der Roboter muss gut sichtbar sein.|
+| NF | **090**  | Der Roboter muss mit vier Lichquellen ausgestattet sein. |
+| NF | **091**  | Die Lichtquellen müssen in gleiche Abständen am Auto angebracht sein (NO, OS, SW, WN).|
+| F  | **110**  | Der Roboter muss Personen identifizieren können.|
+| NF | **111**  | Der Roboter muss eine Kamera haben.|
+| F  | **112**  | Der Roboter muss nach Erkennung einer Person die Livesteuerung aktivieren.|
+| NF | **113**  | Der Roboter muss über einen Roboterarm verfügen (für die Livesteuerng).|
+| F  | **020**  | Der Roboter muss die Richtung in die er fahren möchte anzeigen.|
+| NF | **021**  | Der Roboter muss mit einem Display ausgestattet sein.|
+| NF | **022**  | Das Display muss die nächste Richtung (mit Pfeilen) anzeigen.|
+| NF | **022**  | Das Display muss die nächste Richtung (mit Pfeilen) anzeigen.|
