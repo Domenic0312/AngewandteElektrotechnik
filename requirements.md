@@ -26,4 +26,3 @@
 | F  | **120**  | Der Roboter muss die Richtung in die er fahren möchte anzeigen.|
 | NF | **121**  | Der Roboter muss mit einem Display ausgestattet sein.|
 | NF | **122**  | Das Display muss die nächste Richtung (mit Pfeilen) anzeigen.|
-| NF | **122**  | Das Display muss die nächste Richtung (mit Pfeilen) anzeigen.|
