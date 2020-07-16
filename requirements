@@ -1,4 +1,4 @@
-| System   | Typ| ID. | Description                                                                                                                                                              |
+| System   | Typ| ID. | Description  |                                                                                                                                                           |
 |:---------|:---|:----|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Roboter  |F  |**010**  | Der Roboter muss Hindernisse erkennen.| 
 |Roboter  |F  |**011**  | Der Roboter muss den Abstand zu den Hinernissen erkennen.|
