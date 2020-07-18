@@ -10,7 +10,7 @@
 - [Katrin Glöwing](https://github.com/gitkatrin)
 
 ## 1. Meilenstein (20.07.2020)
-- [Requirements](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/requirements.md)
+- [Requirements](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/requirements.md)
 - UseCases
 - Block-Diagram
 - [Scenarios](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/scenarios.md)
