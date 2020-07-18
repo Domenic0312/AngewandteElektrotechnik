@@ -13,4 +13,4 @@
 - [Requirements](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/requirements.md)
 - UseCases
 - Block-Diagram
-- Scenarios
+- [Scenarios](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/scenarios.md)
