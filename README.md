@@ -14,3 +14,5 @@
 - UseCases
 - Block-Diagram
 - [Scenarios](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/scenarios.md)
+- Stakeholder
+- Raw Sketch
