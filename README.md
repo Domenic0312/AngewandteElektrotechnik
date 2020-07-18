@@ -8,3 +8,11 @@
 - [Domenic Drechsel](https://github.com/Domenic0312)
 - Alexander Wilms
 - [Katrin Glöwing](https://github.com/gitkatrin)
+
+## 1. Meilenstein (20.07.2020)
+- [Requirements](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/requirements.md)
+- UseCases
+- Block-Diagram
+- [Scenarios](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/scenarios.md)
+- Stakeholder
+- Raw Sketch
