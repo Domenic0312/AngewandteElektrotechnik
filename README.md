@@ -13,6 +13,6 @@
 - [Requirements](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/requirements.md)
 - UseCases
 - Block-Diagram
-- [Scenarios](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/scenarios.md)
+- [Scenarios](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/scenarios.md)
 - Stakeholder
 - Raw Sketch
