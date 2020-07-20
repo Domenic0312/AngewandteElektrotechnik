@@ -4,7 +4,7 @@
 - Das Fahrzeug hat Kontakt mit der Umwelt und Personen, dies kann zu rechtlichen Problemen führen.
 - Durch bestimmte Erweiterungen am Rettungsauto, könnte die Umwelt verbessert werden.
 
-## Menschen die gerettet werden
+## Menschen, die gerettet werden
 - Sind nicht einverstanden mit der neuen Technik, möchten diese nicht in Anspruch nehmen.
 - Sind begeistert von der Idee und unterstützen das Projekt.
 
