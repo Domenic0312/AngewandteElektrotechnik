@@ -16,3 +16,5 @@
 - [Scenarios](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/scenarios.md)
 - [Stakeholder](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/stakeholder.md)
 - [Raw Sketch](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/PaperPrototype/PaperPrototype.png)
+
+## 2. Meilenstein (27.07.2020)
