@@ -8,7 +8,7 @@
 ## Team member:
 - [Justin Frommberger](https://github.com/JustinF97)
 - [Domenic Drechsel](https://github.com/Domenic0312)
-- Alexander Wilms
+- [Alexander Wilms](https://github.com/Citoxe)
 - [Katrin Glöwing](https://github.com/gitkatrin)
 
 ## 1. Meilenstein (20.07.2020)
