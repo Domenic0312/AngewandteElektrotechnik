@@ -10,12 +10,12 @@
 
 ## Feuerwehr & Polizei
 - Sind gegen die Einführung eines technischen Hilfsmittels, da Arbeitsplätze wegfallen.
-- Freuen sich über die Verbesserung der Arbeitsbedingungen und die Unterstütung.
+- Freuen sich über die Verbesserung der Arbeitsbedingungen und die Unterstützung.
 
 ## Sponsoren
 - Sehen den technischen Erfolg nicht und möchten deshalb den preislichen Aufwand nicht finanzieren.
 - Sind skeptisch doch interessiert an der neuen Technik und möchte dies finanzieren.
-- Sehen das Potential in der neuen Technik und freuen sich so ein großes neues Projekt zun unterstützen.
+- Sehen das Potential in der neuen Technik und freuen sich so ein großes neues Projekt zu unterstützen.
 
 ## Mitbürger
 - Haben Angst in einen Unfall mit dem Rettungsauto zu geraten.
