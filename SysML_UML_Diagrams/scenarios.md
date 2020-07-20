@@ -9,6 +9,8 @@ Im Falle eines Fehlers am Atomkraftwerk, können Menschen aufrund der tödlichen
 ## Bergung nach Überflutung/Tsunami
 Das Bergen von Menschen nach einer Überflutung, sei es durch einen Tsunami oder sonstiges, kann auch mit Hilfe des Rescue Roboters durchgeführt werden. So müssen sich Bergungsteams nicht in eigene Gefahr begeben und können dank der **Liveschaltung unter Verwendung des Roboterarms** Personen bergen. Zudem kann der Rescue Roboter mit einer **Wärmebildkamera** ausgestattet werden um auf noch lebende Personen aufmerksam zu werden.
 
-## Bohrinseln im Wasser
+## Schiffsunglück
+Im Falle eines Schiffsunglücks kann der Roboter **auf das Wasser fahren** und Lebewesen die an der Wasseroberfläche schwimmen mit Hilfe der **Liveschaltung unter Verwendung des Roboterarms** bergen. Zudem ist es auch möglich wichtige Ware die an der Oberfläche schwimmt auf diesem Wege aus dem Wasser zu ziehen, im Falle eines Frachtschiffes.
 
 ## Waldbrände
+Das Löschen von Waldbränden kann mithilfe des Rescue Roboters untersützt werden, indem ein **Wassertank und ein Wasserschlauch** installiert werden. Dafür ist außerdem eine spezielle **feuerunduchlässige Ummantelung** des Roboters notwendig. Zudem kann der Rescue Roboter auch Lebenwesen, sein es Menschen oder Tiere, mithilfe der **Liveschaltung unter Verwendung des Roboterarms** aus dem Brandgebiet bergen.
