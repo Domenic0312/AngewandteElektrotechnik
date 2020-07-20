@@ -6,10 +6,14 @@
 
 
 ## Team member:
-- [Justin Frommberger](https://github.com/JustinF97)
-- [Domenic Drechsel](https://github.com/Domenic0312)
-- [Alexander Wilms](https://github.com/Citoxe)
-- [Katrin Glöwing](https://github.com/gitkatrin)
+- Programmierabteilung:
+  - [Domenic Drechsel](https://github.com/Domenic0312)
+  - [Katrin Glöwing](https://github.com/gitkatrin)
+
+- Designabteilung:
+  - [Justin Frommberger](https://github.com/JustinF97)
+  - [Alexander Wilms](https://github.com/Citoxe)
+
 
 ## 1. Meilenstein (20.07.2020)
 - [Requirements](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/requirements.md)
