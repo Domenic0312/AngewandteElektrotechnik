@@ -2,6 +2,7 @@
 
 ## Politiker
 Das Fahrzeug hat Kontakt mit der Umwelt und Personen, dies kann zu Rechtlichen Problemen führen.
+
 Durch bestimmte Erweiterungen am Rettungsauto, könnte die Umwelt verbessert werden.
 
 ## Menschen die gerettet werden
