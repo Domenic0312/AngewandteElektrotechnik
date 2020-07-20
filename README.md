@@ -13,7 +13,7 @@
 
 ## 1. Meilenstein (20.07.2020)
 - [Requirements](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/requirements.md)
-- [UseCases](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Use_Case.png)
+- [UseCases](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/UseCase.png)
 - [Block-Diagram](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Block_Diagramm.png)
 - [Scenarios](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/scenarios.md)
 - [Stakeholder](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/stakeholder.md)
