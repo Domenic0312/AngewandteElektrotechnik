@@ -1,5 +1,11 @@
-# Szenarien/Anwendungsgebiete
+# Szenario
+Der Rescue Roboter wird eingesetzt um Menschen beziehungsweise Lebewesen und Objekte im Fall von Naturkatastrophen oder schweren Unfällen zu retten.
 
+Auf dem Bild unten ist die Testumgebung zu sehen. In diesem Projekt hat der Rescue Roboter die Aufgabe jemanden nach einer Explosion im Mehrfamilienhaus zu bergen. Außerhalb des Hauses finden sich brennende Gegenstände von dem Haus.
+
+![Testumgebung](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Dokument/Bilder/testumgebung.PNG)
+
+# Future Work
 ## Bergung nach Vulkanausbruch
 Im Falle eines Vulkanausbruchs den menschlichen Rettungsteams oft nicht möglich die Leichen zu bergen, da ein zu hohes Risiko eines weiteren Vulkanausbruchs besteht. Der Rescue Roboter kann so konzipiert werden, dass er **hitzebeständig** ist und es wäre so möglich die Leichen mit dem Rescue Roboter zu bergen.
 
