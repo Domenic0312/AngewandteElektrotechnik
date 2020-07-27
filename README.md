@@ -24,3 +24,14 @@
 - [Raw Sketch](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/PaperPrototype/PaperPrototype.png)
 
 ## 2. Meilenstein (27.07.2020)
+
+## 3. Meilenstein (03.08.2020)
+
+## Kolloquium (10.08.2020)
+
+## 4. Meilenstein (17.08.2020)
+
+## Finales Kolloquium (24.08.2020)
+
+## Abgabe Arbeit (27.08.2020)
+- [Dokument](https://github.com/Domenic0312/AngewandteElektrotechnik/tree/master/Dokument)
