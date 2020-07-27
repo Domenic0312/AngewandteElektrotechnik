@@ -26,6 +26,10 @@
 ## 2. Meilenstein (27.07.2020)
 
 ## 3. Meilenstein (03.08.2020)
+- Kontextdiagramm
+- Klassendiagramm
+- Programmablaufplan
+- Sequenzdiagramm
 
 ## Kolloquium (10.08.2020)
 
