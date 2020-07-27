@@ -22,7 +22,10 @@
 - Fühlen sich sicherer durch das Rettungsauto.
 
 ## Firma
+- Sehen das Potential in der neuen Technik und freuen sich, so ein großes neues Projekt zu unterstützen.
 
 ## Monteur
+- Kennt sich mit der neuen Technik nicht aus, ist deshalb eher skeptisch aber trotzdem interessiet daran, etwas neues zu lernen. 
 
 ## Bediener
+- Kennt sich mit der neuen Technik nicht aus, ist deshalb eher skeptisch aber trotzdem interessiet daran, etwas neues zu lernen. 
