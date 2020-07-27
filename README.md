@@ -34,3 +34,4 @@
 ## Finales Kolloquium (24.08.2020)
 
 ## Abgabe Arbeit (27.08.2020)
+- [Dokument](https://github.com/Domenic0312/AngewandteElektrotechnik/tree/master/Dokument)
