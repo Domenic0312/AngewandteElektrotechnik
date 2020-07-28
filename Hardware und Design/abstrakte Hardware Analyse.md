@@ -1,4 +1,4 @@
-# Requirements
+# Auflistung der Hardware & Mechanik + Pro & Cons
 | Typ| ID.      | Description  |                                                                                                                           
 |:---|:---------|:--------------------------------------------------------------------------------------------------------------------------------|
 | F  | **010**  | Der Roboter muss Hindernisse erkennen.| 
