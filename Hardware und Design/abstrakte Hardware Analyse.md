@@ -11,3 +11,4 @@
 | Rettung | Rettungsarm / Kran | Vollmetall | Hitze, Kälte, langlebig, stabil, hohe Belastbarkeit |  Schwer, Teurer | Zusammenfassung|
 | Rettung | Rettungsarm / Kran | Kunststoff| leicht, günstig, 3D Druck, einfache Herstellung | Hitze, Kälte, instabil, geringe Belastbarkeit | Zusammenfassung|
 | Rettung | Rettungsarm / Kran | Super Materialien|leicht ,stabil, extreme Hitze, extreme Kälte, Explosionen, Feuer, hohe belastbarkeit | Anschaffung schwer, teuer, Herstellung, Forschung | Zusammenfassung|
+
