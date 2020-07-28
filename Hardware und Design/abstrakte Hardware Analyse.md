@@ -1,5 +1,5 @@
-# Auflistung der Hardware & Mechanik + Pro & Cons
-| Typ| ID.      | Description  |                                                                                                                           
+# Auflistung der Hardware & Mechanik + Vorteile & Nachteile
+| Hardware & Mechanik| Beschreibung | Vorteile  | Nachteile |                                                                                                                          
 |:---|:---------|:--------------------------------------------------------------------------------------------------------------------------------|
 | F  | **010**  | Der Roboter muss Hindernisse erkennen.| 
 | F  | **011**  | Der Roboter muss den Abstand zu den Hindernissen erkennen.|
