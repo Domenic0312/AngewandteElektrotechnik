@@ -1,4 +1,4 @@
-# Auflistung der Hardware & Mechanik + Vorteile & Nachteile
-| Hardware & Mechanik| Beschreibung | Vorteile  | Nachteile |                                                                                                                          
-|:-------------------|:-------------|:----------|:----------|
-|       Baum         | Tu           | Das       |  Mal      |
+# Auflistung der Hardware & Mechanik / Vorteile & Nachteile
+| Hardware & Mechanik| Beschreibung | Material  | Vorteile  | Nachteile |                                                                                                                          
+|:-------------------|:-------------|:----------|:----------|:----------|
+|       Antrieb      | Ketten       |  Gummi/Plastik/Kunststoff |  Leicht/Günstig/Schwimmt/      |
