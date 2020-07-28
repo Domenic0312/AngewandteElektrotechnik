@@ -5,3 +5,4 @@
 | Antrieb | Ketten |  Metall | Hitze, Kälte, langlebig, stabil, hohe Belastbarkeit |  Schwer, Teurer, Schwimmt nicht, Straße beschädigen, komplexe Herstellung | Zusammenfassung |
 | Antrieb | Räder  | Mecanum Räder (Gummi) | 360° Drehung, Straße, Sand/Erde, Hügel  |  langsam, Wasser, Hitze, Kälte, Steine   | Zusammenfassung |                        
 | Antrieb | Räder  | Reifen (Gummi)| Schnell, Straße, Sand/Erde, Hügel, günstig, verfügbarkeit |  nicht drehbar, Wasser, Hitze, Kälte, Steine | Zusammenfassung |  
+| Model   | Chassis| Voll Metall | stabil, Hitze, Kälte, Explosionen, Feuer, hohe belastbarkeit| hohes Gewicht, relativ teuer | Zusammenfassung|
