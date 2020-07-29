@@ -14,10 +14,10 @@
 | Antrieb | E-Batterie/Akku | Lithium | Elektro: aufladbar  |  Akkulaufzeit, Teurer in der Anschaffung | Zusammenfassung|
 | Antrieb | Brennstoffmotor | Benzin/Diesel | günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
 | Sensor| Abstandssensor  | Laser       | hohe Reichweite, hohe Effizients  | verschmutzung, mechanische stöße | Zusammenfassung|
-| Sensor| Abstandssensor  | Infrarot    | mittlere Reichweite  |  andere Infrarot Geräte| Zusammenfassung|
+| Sensor| Abstandssensor  | Infrarot    | mittlere Reichweite  |  andere Infrarot Geräte, nicht durch Glas| Zusammenfassung|
 | Sensor| Abstandssensor  | Ultraschall | gut für alle Oberflächen  |  geringe Reichweite | Zusammenfassung|
 | Visuell| Kamera  | Termal    | günstig, universell  |  ??? | Zusammenfassung|
-| Visuell| Kamera  | Infrarot  | günstig, universell  |  ??? | Zusammenfassung|
+| Visuell| Kamera  | Infrarot  | günstig, universell  |  nicht durch Glas, andere Infrarot Geräte | Zusammenfassung|
 | Visuell| Kamera  | Bild      | günstig, universell  |  ??? | Zusammenfassung|
 | Visuell| Kamera  | Nachtsicht| günstig, universell  |  ??? | Zusammenfassung|
 | Audio  | Lautsprecher | 360° | von überall hörbar   |  ??? | Zusammenfassung|
