@@ -2,7 +2,7 @@
 
 ## Antrieb
 - Ketten
-- Metall
+-- Metall
 
 ## Modell
 - Chassis
