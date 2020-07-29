@@ -13,5 +13,19 @@
 -  Elektromotor und Solarpanel
 
 ## Abstandssensor
+-
 
 ## Kamera
+-
+
+## Mikrofon
+-
+
+## Laufsprecher
+-
+
+## Beleuchtung (Vorne)
+-
+
+## Beleuchtung (Warnung)
+-
