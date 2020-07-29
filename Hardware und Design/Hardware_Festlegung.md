@@ -1,6 +1,6 @@
 # Hardware & Software
 
-## Antrieb (Ketten)
+## Vortrieb (Ketten)
 - Metall
 
 ## Modell (Chassis)
@@ -9,8 +9,9 @@
 ## Rettung (Rettungsarm/Kran)
 - Super Materialien
 
-## Motor
--  Test
+## Antrieb (Motor)
+-  Elektromotor und Solarpanel
 
-## Power supply
-- Test
+## Abstandssensor
+
+## Kamera
