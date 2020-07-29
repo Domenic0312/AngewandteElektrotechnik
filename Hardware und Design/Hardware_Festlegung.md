@@ -3,11 +3,11 @@
 ## Vortrieb (Ketten)
 - Metall
 
-< Ketten sind generell eher schwer und sperrig. 
+<Ketten sind generell eher schwer und sperrig. 
 Der große Vorteil: Ein Kettenfahrzeug kann in fast jedem Terrain fahren. Hügel, Geröll und Erde. Auch Hindernisse und Steigungen sind leicht passierbar. 
 Zudem sind die Metallketten für große Temperaturschwankungen geiegnet. 
 Sowohl große Hitze und Kälte und können überwunden werden. Somit wäre ein Kettenfahrzeug auch für Brandsituation eine gute Möglichkeit. 
-Zudem kann ein Kettenfahrzeig sich auf der Stelle drehen und ist von der Fahrtrichtung flexibe >
+Zudem kann ein Kettenfahrzeig sich auf der Stelle drehen und ist von der Fahrtrichtung flexibe>
 
 ## Modell (Chassis)
 - Super Materialien
