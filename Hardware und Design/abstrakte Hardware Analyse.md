@@ -5,9 +5,9 @@
 | Antrieb | Ketten |  Metall | Hitze, Kälte, langlebig, stabil, hohe Belastbarkeit |  Schwer, Teurer, Schwimmt nicht, Straße beschädigen, komplexe Herstellung | Ketten sind generell eher schwer und sperrig. Der große Vorteil: Ein Kettenfahrzeug kann in fast jedem Terrain fahren. Hügel, Geröll und Erde. Auch Hindernisse und Steigungen sind leicht passierbar. Zudem sind die Metallketten für große Temperaturschwankungen geiegnet. Sowohl große Hitze und Kälte und können überwunden werden. Somit wäre ein Kettenfahrzeug auch für Brandsituation eine gute Möglichkeit.  |
 | Antrieb | Räder  | Mecanum Räder (Gummi) | 360° Drehung, Straße, Sand/Erde, Hügel  |  langsam, Wasser, Hitze, Kälte, Steine   | Zusammenfassung |                        
 | Antrieb | Räder  | Reifen (Gummi)| Schnell, Straße, Sand/Erde, Hügel, günstig, verfügbarkeit |  nicht drehbar, Wasser, Hitze, Kälte, Steine | Zusammenfassung |  
-| Model   | Chassis| Vollmetall | stabil, Hitze, Kälte, Explosionen, Feuer, hohe belastbarkeit| hohes Gewicht, relativ teuer | Zusammenfassung|
-| Model   | Chassis| Kunststoff| leicht, Herstellung einfach, günstig | instabil, Hitze, Kälte, Explosionen, Feuer, keine belastbarkeit| Zusammenfassung|
-| Model   | Chassis| Super Materialien | leicht ,stabil, extreme Hitze, extreme Kälte, Explosionen, Feuer, hohe belastbarkeit| Anschaffung schwer, teuer, Herstellung, Forschung | Zusammenfassung|
+| Modell   | Chassis| Vollmetall | stabil, Hitze, Kälte, Explosionen, Feuer, hohe belastbarkeit| hohes Gewicht, relativ teuer | Zusammenfassung|
+| Modell   | Chassis| Kunststoff| leicht, Herstellung einfach, günstig | instabil, Hitze, Kälte, Explosionen, Feuer, keine belastbarkeit| Zusammenfassung|
+| Modell   | Chassis| Super Materialien | leicht ,stabil, extreme Hitze, extreme Kälte, Explosionen, Feuer, hohe belastbarkeit| Anschaffung schwer, teuer, Herstellung, Forschung | Zusammenfassung|
 | Rettung | Rettungsarm / Kran | Vollmetall | Hitze, Kälte, langlebig, stabil, hohe Belastbarkeit |  Schwer, Teurer | Zusammenfassung|
 | Rettung | Rettungsarm / Kran | Kunststoff| leicht, günstig, 3D Druck, einfache Herstellung | Hitze, Kälte, instabil, geringe Belastbarkeit | Zusammenfassung|
 | Rettung | Rettungsarm / Kran | Super Materialien|leicht ,stabil, extreme Hitze, extreme Kälte, Explosionen, Feuer, hohe belastbarkeit | Anschaffung schwer, teuer, Herstellung, Forschung | Zusammenfassung|
