@@ -16,7 +16,9 @@
 | Sensor| Abstandssensor  | Laser       | hohe Reichweite, hohe Effizients  | verschmutzung, mechanische stöße | Zusammenfassung|
 | Sensor| Abstandssensor  | Infrarot    | mittlere Reichweite  |  andere Infrarot Geräte| Zusammenfassung|
 | Sensor| Abstandssensor  | Ultraschall | gut für alle Oberflächen  |  geringe Reichweite | Zusammenfassung|
-| Visuell| Kamera  | Termal  | günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
-| Visuell| Kamera  | Infrarot| günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
-| Visuell| Kamera  | Bild    | günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
-| Visuell| Kamera  | Nachtsicht| günstig, universell|  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
+| Visuell| Kamera  | Termal    | günstig, universell  |  ??? | Zusammenfassung|
+| Visuell| Kamera  | Infrarot  | günstig, universell  |  ??? | Zusammenfassung|
+| Visuell| Kamera  | Bild      | günstig, universell  |  ??? | Zusammenfassung|
+| Visuell| Kamera  | Nachtsicht| günstig, universell  |  ??? | Zusammenfassung|
+| Audio  | Lautsprecher | 360° | von überall hörbar   |  ??? | Zusammenfassung|
+| Audio  | Lautsprecher | Richtmikrofon | günstig, universell| ??? | Zusammenfassung|
