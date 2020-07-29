@@ -1,15 +1,12 @@
 # Hardware & Software
 
-## Antrieb
-- Ketten
+## Antrieb (Ketten)
 - Metall
 
-## Modell
-- Chassis
+## Modell (Chassis)
 - Super Materialien
 
-## Rettung
-- Rettungsarm/Kran
+## Rettung (Rettungsarm/Kran)
 - Super Materialien
 
 ## Motor
