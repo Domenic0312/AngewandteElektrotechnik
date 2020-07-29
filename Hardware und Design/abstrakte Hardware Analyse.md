@@ -13,3 +13,10 @@
 | Rettung | Rettungsarm / Kran | Super Materialien|leicht ,stabil, extreme Hitze, extreme Kälte, Explosionen, Feuer, hohe belastbarkeit | Anschaffung schwer, teuer, Herstellung, Forschung | Zusammenfassung|
 | Antrieb | E-Batterie/Akku | Lithium | Elektro: aufladbar  |  Akkulaufzeit, Teurer in der Anschaffung | Zusammenfassung|
 | Antrieb | Brennstoffmotor | Benzin/Diesel | günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
+| Sensor| Abstandssensor  | Laser       | hohe Reichweite, hohe Effizients  | verschmutzung, mechanische stöße | Zusammenfassung|
+| Sensor| Abstandssensor  | Infrarot    | günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
+| Sensor| Abstandssensor  | Ultraschall | günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
+| Visuell| Kamera  | Termal  | günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
+| Visuell| Kamera  | Infrarot| günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
+| Visuell| Kamera  | Bild    | günstig, universell  |  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
+| Visuell| Kamera  | Nachtsicht| günstig, universell|  explosionsgefahr, Leck und Auslaufgefahr | Zusammenfassung|
