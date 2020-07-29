@@ -25,7 +25,7 @@ Zudem kann ein Kettenfahrzeig sich auf der Stelle drehen und ist von der Fahrtri
 - Infrarot
 
 ## Kamera
-- Termalkammera
+- Thermalcamera
 - Infrarot
 
 ## Mikrofon
