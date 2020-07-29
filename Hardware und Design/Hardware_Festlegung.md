@@ -12,20 +12,22 @@
 ## Antrieb (Motor)
 -  Elektromotor und Solarpanel
 
-## Abstandssensor
--
+## Abstandssensor 
+- Laser
 
 ## Kamera
--
+- Termalkammera
+- Infrarot
 
 ## Mikrofon
--
+- Funkmikro
+- 360° Mikro
 
-## Laufsprecher
--
+## Lautsprecher
+- 360° Lautsprecher
 
 ## Beleuchtung (Vorne)
--
+- LED
 
 ## Beleuchtung (Warnung)
--
+- LED
