@@ -27,7 +27,7 @@
 
 ## 3. Meilenstein (03.08.2020)
 - [Kontextdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Kontextdiagramm.pdf)
-- Klassendiagramm
+- [Klassendiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Klassendiagramm.png)
 - Programmablaufplan
 - Sequenzdiagramm
 
