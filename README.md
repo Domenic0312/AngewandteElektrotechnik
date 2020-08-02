@@ -29,7 +29,7 @@
 - [Kontextdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Kontextdiagramm.pdf)
 - [Klassendiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Klassendiagramm.png)
 - Programmablaufplan
-- Sequenzdiagramm
+- [Sequenzdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Sequenzdiagramm.pdf)
 
 ## Kolloquium (10.08.2020)
 
