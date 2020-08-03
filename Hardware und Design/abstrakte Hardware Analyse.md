@@ -17,7 +17,7 @@
 | Sensor| Abstandssensor  | Infrarot    | mittlere Reichweite  |  andere Infrarot Geräte| Hat eine mittlere Reichweite doch hat keine Probleme mit Schmutzpartikeln nur andere Infrarot Geräte könnten das Signal stören, recht zuverlässig.|
 | Sensor| Abstandssensor  | Ultraschall | gut für alle Oberflächen  |  geringe Reichweite | Hat eine geringe Reichweite so leider unnutzbar für größere Räume, Häuser.|
 | Visuell| Kamera  | Thermal\Infrarot    | Temperaturen sichtbar  |  Probleme durch andere Hitze Objekte| Sind super dafür da um einen Patienten im Rauch bzw in der Dunkelheit zu finden.|
-| Visuell| Kamera  | Bild      | Hat eine gute Qualität, Live Bilder  | Nebel, Rauch, Feuer, Kälte, Hitze | Da wir viel Staub, Nebel, Rauch oder Dunkelheit haben ist dies nicht nuztzbar.|
+| Visuell| Kamera  | Bild      | Hat eine gute Qualität, Live Bilder  | Nebel, Rauch, Feuer, Kälte, Hitze | Da wir viel Staub, Nebel, Rauch oder Dunkelheit haben ist dies nicht nutzbar.|
 | Visuell| Kamera  | Nachtsicht| Dunkelheit |  Hitze, Feuer, Kälte |Können sinvoll sein wenn die Thermal\Infrarot Kammera Probleme mit der Hitze im Raum bekommt.|
 | Audio  | Lautsprecher | 360° | von überall hörbar   | Störsignale, Hitze, Kälte, Feuer | Sind perfekt für Räume ausgelegt da sich unser Fahrzeug nicht drehen muss um seine Narricht mittzuteilen.|
 | Audio  | Mikrofon | Richtmikrofon | hohe Qualität| Störsignale, Hitze, Kälte | Gute Qualität |
