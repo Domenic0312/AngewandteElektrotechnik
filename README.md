@@ -22,17 +22,15 @@
 - [Raw Sketch](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/PaperPrototype/PaperPrototype.png)
 
 ## 2. Meilenstein (27.07.2020)
-- [Korrekturen]
+- Korrekturen
 ## 3. Meilenstein (03.08.2020)
+
 - [UseCases](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/UseCase.png)
 - [Block-Diagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/BlockDiagramm.png)
-
 - [Auflistung-Hardware](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/abstrakte%20Hardware%20Analyse.md)
 - [Hardware-Software](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/Hardware_Festlegung.md)
-
 - [Kontextdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Kontextdiagramm.pdf)
 - [Klassendiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Klassendiagramm.png)
-- Programmablaufplan
 - [Sequenzdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Sequenzdiagramm.pdf)
 
 
