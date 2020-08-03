@@ -30,7 +30,7 @@
 - [Auflistung-Hardware](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/abstrakte%20Hardware%20Analyse.md)
 - [Hardware-Software](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/Hardware_Festlegung.md)
 - [Kontextdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Kontextdiagramm.pdf)
-- [Klassendiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Klassendiagramm.png)
+- [Klassendiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/classDiagram.png)
 - [Sequenzdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Sequenzdiagramm.pdf)
 
 
