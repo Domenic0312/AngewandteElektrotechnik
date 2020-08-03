@@ -35,7 +35,6 @@ Zudem kann ein Kettenfahrzeig sich auf der Stelle drehen und ist von der Fahrtri
 > Sind super dafür da um einen Patienten im Rauch bzw in der Dunkelheit zu finden.
 
 ## Mikrofon
-- Funkmikro
 - 360° Mikro
 
 > Gute Qualität
