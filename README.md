@@ -17,19 +17,24 @@
 
 ## 1. Meilenstein (20.07.2020)
 - [Requirements](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/requirements.md)
-- [UseCases](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/UseCase.png)
-- [Block-Diagram](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Block_Diagramm.png)
 - [Scenarios](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/scenarios.md)
 - [Stakeholder](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/stakeholder.md)
 - [Raw Sketch](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/PaperPrototype/PaperPrototype.png)
 
 ## 2. Meilenstein (27.07.2020)
-
+- [Korrekturen]
 ## 3. Meilenstein (03.08.2020)
+- [UseCases](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/UseCase.png)
+- [Block-Diagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/BlockDiagramm.png)
+
+- [Auflistung-Hardware](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/abstrakte%20Hardware%20Analyse.md)
+- [Hardware-Software](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/Hardware_Festlegung.md)
+
 - [Kontextdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Kontextdiagramm.pdf)
 - [Klassendiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Klassendiagramm.png)
 - Programmablaufplan
 - [Sequenzdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Sequenzdiagramm.pdf)
+
 
 ## Kolloquium (10.08.2020)
 
