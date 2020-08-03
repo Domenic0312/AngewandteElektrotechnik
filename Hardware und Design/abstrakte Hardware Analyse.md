@@ -19,5 +19,5 @@
 | Visuell| Kamera  | Thermal\Infrarot    | Temperaturen sichtbar  |  Probleme durch andere Hitze Objekte| Sind super dafür da um einen Patienten im Rauch bzw in der Dunkelheit zu finden.|
 | Visuell| Kamera  | Bild      | Hat eine gute Qualität, Live Bilder  | Nebel, Rauch, Feuer, Kälte, Hitze | Da wir viel Staub, Nebel, Rauch oder Dunkelheit haben ist dies nicht nutzbar.|
 | Visuell| Kamera  | Nachtsicht| Dunkelheit |  Hitze, Feuer, Kälte |Können sinvoll sein wenn die Thermal\Infrarot Kammera Probleme mit der Hitze im Raum bekommt.|
-| Audio  | Lautsprecher | 360° | von überall hörbar   | Störsignale, Hitze, Kälte, Feuer | Sind perfekt für Räume ausgelegt da sich unser Fahrzeug nicht drehen muss um seine Narricht mittzuteilen.|
+| Audio  | Lautsprecher | 360° | von überall hörbar   | Störsignale, Hitze, Kälte, Feuer | Sind perfekt für Räume ausgelegt da sich unser Fahrzeug nicht drehen muss um eine Mitteilung von Patienten zu erhalten.|
 | Audio  | Mikrofon | Richtmikrofon | hohe Qualität| Störsignale, Hitze, Kälte | Gute Qualität |
