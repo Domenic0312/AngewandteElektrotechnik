@@ -18,6 +18,6 @@
 | Sensor| Abstandssensor  | Ultraschall | gut für alle Oberflächen  |  geringe Reichweite | Hat eine geringe Reichweite so leider unnutzbar für größere Räume, Häuser.|
 | Visuell| Kamera  | Thermal\Infrarot    | Temperaturen sichtbar  |  Probleme durch andere Hitze Objekte| Sind optimal geeignet um einen Patienten im Rauch bzw in der Dunkelheit zu finden.|
 | Visuell| Kamera  | Bild      | Hat eine gute Qualität, Live Bilder  | Nebel, Rauch, Feuer, Kälte, Hitze | Kann nur bei guten Licht- und Sichtverhätnissen verwendet werden. Ansonten werden andere Kamerasysteme dazu geschalten.|
-| Visuell| Kamera  | Nachtsicht| Dunkelheit |  Hitze, Feuer, Kälte |Können sinvoll sein wenn die Thermal\Infrarot Kammera Probleme mit der Hitze im Raum bekommt.|
+| Visuell| Kamera  | Nachtsicht| Dunkelheit |  Hitze, Feuer, Kälte |Können sinvoll sein wenn die Thermal\Infrarot Kamera Probleme mit der Hitze im Raum bekommt.|
 | Audio  | Lautsprecher | 360° | von überall hörbar   | Störsignale, Hitze, Kälte, Feuer | Sind perfekt für Räume ausgelegt da sich unser Fahrzeug nicht drehen muss um eine Mitteilung von Patienten zu erhalten.|
-| Audio  | Mikrofon | Richtmikrofon | hohe Qualität| Störsignale, Hitze, Kälte | Gute Qualität |
+| Audio  | Mikrofon | Richtmikrofon | hohe Qualität| Störsignale, Hitze, Kälte | Gute Qualität jedoch nur für bestimmte Richtungen/Berreiche |
