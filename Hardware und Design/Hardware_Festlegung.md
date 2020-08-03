@@ -1,4 +1,4 @@
-# Hardware & Software
+# Hardware 
 
 ## Vortrieb (Ketten)
 - Metall
