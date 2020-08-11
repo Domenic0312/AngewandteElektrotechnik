@@ -20,7 +20,7 @@ namespace KartenDaten
             }
 
             file.Close();  
-            System.Console.WriteLine("Datei wurde eingelesen, Liste wurde angelegt.");  
+            System.Console.WriteLine("Karte wurde eingelesen, Liste wurde angelegt.");  
         }
 
         private void loadReferenz(){
@@ -39,7 +39,7 @@ namespace KartenDaten
             }
             Console.WriteLine(refPunkte[0].x);
             file.Close();  
-            System.Console.WriteLine("Datei wurde eingelesen, Liste wurde angelegt.");  
+            System.Console.WriteLine("ReferenzStationen wurde eingelesen, Liste wurde angelegt.");  
         }
         public void genKarte(){
             //Generieren der Karte.
