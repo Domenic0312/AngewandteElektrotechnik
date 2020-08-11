@@ -21,22 +21,26 @@ class Karte{
         }
         //Jeden Eintrag des Vektors Aufsplitten in die einzelnen Werte
         string tmp;
+
+        stringstream linestream(lines[0]);
+
+        getline(linestream, Surname, ',');
+
         //for (int i = 0; i < lines.size(); i++){
             cout << "Type:"<<typeid(lines[0]).name()<<endl;
-  //          while(getline(str(lines[0]),tmp, ';')){
-  //              cout<<tmp<<endl;
-   //         }            
+            cout<<lines[0]<< endl;
+            while(getline(lines[0],tmp, ';')){
+                cout<<tmp<<endl;
+            }            
         //}
 
 
         for (int i = 0; i < lines.size(); i++){
-            cout << lines[i] << endl;
+            //cout << lines[i] << endl;
         }
-        
         return 0;
     }
 };
-
 
 int main() {
     Karte kart;
