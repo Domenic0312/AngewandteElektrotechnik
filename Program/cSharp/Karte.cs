@@ -49,7 +49,7 @@ namespace KartenDaten
         }
         public int[] getStartPos(){
             //Position von der aus der Roboter startet
-            return new int[]{100,100};
+            return new int[]{66,164};
         }
         public int[] getEndPos(){
             //Position der verletzten Person
@@ -69,9 +69,28 @@ namespace KartenDaten
                         }
                     }
                     break;
-                case 1:
+                case 1://Nord Osten
 
-                default:
+                    break;
+                case 2://Osten
+
+                    break;
+                case 3://SüdOsten
+
+                    break;
+                case 4: //Süden
+
+                    break;
+                case 5: //Südwesten
+
+                    break;
+                case 6: //Westen
+
+                    break;
+                case 7: //Nordwesten
+
+                    break;
+                default: //Alles andere.......
                     Console.WriteLine("Leider ist diese Richtung noch nicht definiert");
                     break;
             }
