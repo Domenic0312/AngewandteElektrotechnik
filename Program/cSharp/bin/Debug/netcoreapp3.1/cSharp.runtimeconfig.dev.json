@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/domenicdrechsel/.dotnet/store/|arch|/|tfm|",
+      "/Users/domenicdrechsel/.nuget/packages"
+    ]
+  }
+}

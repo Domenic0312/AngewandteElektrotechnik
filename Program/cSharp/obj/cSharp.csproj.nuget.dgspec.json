@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/cSharp.csproj": {}
+  },
+  "projects": {
+    "/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/cSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/cSharp.csproj",
+        "projectName": "cSharp",
+        "projectPath": "/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/cSharp.csproj",
+        "packagesPath": "/Users/domenicdrechsel/.nuget/packages/",
+        "outputPath": "/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/domenicdrechsel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

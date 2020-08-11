@@ -1,0 +1,12 @@
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/bin/Debug/netcoreapp3.1/cSharp.deps.json
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/bin/Debug/netcoreapp3.1/cSharp.runtimeconfig.json
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/bin/Debug/netcoreapp3.1/cSharp.runtimeconfig.dev.json
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/bin/Debug/netcoreapp3.1/cSharp.dll
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/bin/Debug/netcoreapp3.1/cSharp.pdb
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/obj/Debug/netcoreapp3.1/cSharp.csprojAssemblyReference.cache
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/obj/Debug/netcoreapp3.1/cSharp.AssemblyInfoInputs.cache
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/obj/Debug/netcoreapp3.1/cSharp.AssemblyInfo.cs
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/obj/Debug/netcoreapp3.1/cSharp.csproj.CoreCompileInputs.cache
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/obj/Debug/netcoreapp3.1/cSharp.dll
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/obj/Debug/netcoreapp3.1/cSharp.pdb
+/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/obj/Debug/netcoreapp3.1/cSharp.genruntimeconfig.cache
