@@ -1,39 +1,47 @@
 using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace Karte
+namespace KartenDaten
 {
-    class Karte
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            Karte karte = new Karte();
-            karte.genKarte();
+    class Karte{
+        List<List<String>> asd = new List<List<String>>();
 
-
-        }
-    }
-        class Karte{
 
         private void loadKarte(){
             //Karte zeilenweise einlesen
-        }
-        private void splitKarte(){
-            //Karte auf das Array aufsplitten
-        }
+            string line;
+            StreamReader file = new StreamReader(@"karteSmall.csv");   
 
+            while((line = file.ReadLine()) != null){ 
+                List<String> liste = line.Split(';').ToList();
+                asd.Add(liste);
+            }
+
+            file.Close();  
+
+            foreach (List<String> element in asd)
+            {
+                Console.WriteLine($"Element {element}");
+            }
+
+            Console.WriteLine("Element : "+asd[0][0] );
+
+            System.Console.WriteLine("Datei wurde eingelesen, Liste wurde angelegt.");  
+        }
         public void genKarte(){
             //Generieren der Karte.
-
+            loadKarte();
             //Au
         }
         public int[] getStartPos(){
             //Position von der aus der Roboter startet
-            return new int[100,100];
+            return new int[]{100,100};
         }
         public int[] getEndPos(){
             //Position der verletzten Person
-            return new int[200,50];
+            return new int[]{200,50};
         }
         
         public int getDistance(){

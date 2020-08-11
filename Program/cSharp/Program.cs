@@ -1,5 +1,5 @@
 ﻿using System;
-using Karte;
+using KartenDaten;
 
 namespace cSharp
 {
@@ -8,9 +8,11 @@ namespace cSharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            //Kartenobjekt erzeugen
             Karte karte = new Karte();
-            karte.genKarte();
 
+            //Karte generieren (Karten array fuellen)
+            karte.genKarte();
 
         }
     }
