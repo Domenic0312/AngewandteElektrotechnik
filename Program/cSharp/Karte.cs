@@ -37,15 +37,16 @@ namespace KartenDaten
 
                 refPunkte.Add(refPoint);
             }
-            Console.WriteLine(refPunkte[0].x);
             file.Close();  
             System.Console.WriteLine("ReferenzStationen wurde eingelesen, Liste wurde angelegt.");  
         }
         public void genKarte(){
+            Console.WriteLine("------ Initialisieren der Umgebung ------\n\n");
             //Generieren der Karte.
             loadKarte();
             //ReferenzStationen auslesen
             loadReferenz();
+            Console.WriteLine("\n\n------ Initialisieren der Umgebung beendet ------\n");
         }
         public int[] getStartPos(){
             //Position von der aus der Roboter startet
@@ -59,13 +60,16 @@ namespace KartenDaten
         public int getDistance(int posX, int posY, int richtung){
             //Distanz in eine definierte Richtung. Richtung 0 = Norden. 
             //Wird im Uhrzeugersinn gedreht
-            Console.WriteLine("PosX: {0} ; PosY  {1}",posX, posY);
+            Console.WriteLine("Abstand von Position {0}/{1} in Richtung {2} wurde abgefragt",posX, posY, richtung);
             switch(richtung){
                 case 0://Norden
                     for(int i=posY; i >= 0;i--){
-                        Console.WriteLine("Hoehe:{0}",i);
-                        if(kartenArr[i][posX] == "1"){
-                            return (posY-i);
+                        Console.WriteLine("i:{0} : Wert:{1}",i, kartenArr[i][posX]);
+                        if(kartenArr[i][posX].Trim() == "1"){
+                            int dist = (posY-i);
+                            Console.WriteLine("Hoehe: {0}", i);
+                            Console.WriteLine("Abstand ist {0}", dist);
+                            return dist;
                         }
                     }
                     break;
@@ -79,7 +83,15 @@ namespace KartenDaten
 
                     break;
                 case 4: //Süden
-
+                    for(int i=posY; i < kartenArr.Count ; i++){
+                        Console.WriteLine("i:{0} : Wert:{1}",i, kartenArr[i][posX]);
+                        if(kartenArr[i][posX].Trim() == "1"){
+                            int dist = (i-posY);
+                            Console.WriteLine("Hoehe: {0}", i);
+                            Console.WriteLine("Abstand ist {0}", dist);
+                            return dist;
+                        }
+                    }
                     break;
                 case 5: //Südwesten
 
