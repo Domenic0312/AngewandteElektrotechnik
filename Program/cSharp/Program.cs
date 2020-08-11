@@ -14,6 +14,8 @@ namespace cSharp
             //Karte generieren (Karten array fuellen)
             karte.genKarte();
 
+
+            Console.WriteLine(karte.getDistance(44,65,0));
         }
     }
 }

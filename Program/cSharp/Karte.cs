@@ -6,8 +6,8 @@ using System.Linq;
 namespace KartenDaten
 {
     class Karte{
-        List<List<String>> asd = new List<List<String>>();
-
+        List<List<String>> kartenArr = new List<List<String>>();
+        List<referenzPunkte> refPunkte = new List<referenzPunkte>();
 
         private void loadKarte(){
             //Karte zeilenweise einlesen
@@ -16,24 +16,36 @@ namespace KartenDaten
 
             while((line = file.ReadLine()) != null){ 
                 List<String> liste = line.Split(';').ToList();
-                asd.Add(liste);
+                kartenArr.Add(liste);
             }
 
             file.Close();  
+            System.Console.WriteLine("Datei wurde eingelesen, Liste wurde angelegt.");  
+        }
 
-            foreach (List<String> element in asd)
-            {
-                Console.WriteLine($"Element {element}");
+        private void loadReferenz(){
+            //Karte zeilenweise einlesen
+            string line;
+            StreamReader file = new StreamReader(@"referenz.csv");   
+
+            while((line = file.ReadLine()) != null){ 
+                List<String> liste = line.Split(';').ToList();
+                referenzPunkte refPoint = new referenzPunkte();
+                refPoint.referenzNr = Convert.ToInt32(liste[0]);
+                refPoint.x = Convert.ToInt32(liste[1]);
+                refPoint.y = Convert.ToInt32(liste[2]);
+
+                refPunkte.Add(refPoint);
             }
-
-            Console.WriteLine("Element : "+asd[0][0] );
-
+            Console.WriteLine(refPunkte[0].x);
+            file.Close();  
             System.Console.WriteLine("Datei wurde eingelesen, Liste wurde angelegt.");  
         }
         public void genKarte(){
             //Generieren der Karte.
             loadKarte();
-            //Au
+            //ReferenzStationen auslesen
+            loadReferenz();
         }
         public int[] getStartPos(){
             //Position von der aus der Roboter startet
@@ -44,21 +56,33 @@ namespace KartenDaten
             return new int[]{200,50};
         }
         
-        public int getDistance(){
+        public int getDistance(int posX, int posY, int richtung){
             //Distanz in eine definierte Richtung. Richtung 0 = Norden. 
             //Wird im Uhrzeugersinn gedreht
+            Console.WriteLine("PosX: {0} ; PosY  {1}",posX, posY);
+            switch(richtung){
+                case 0://Norden
+                    for(int i=posY; i >= 0;i--){
+                        Console.WriteLine("Hoehe:{0}",i);
+                        if(kartenArr[i][posX] == "1"){
+                            return (posY-i);
+                        }
+                    }
+                    break;
+                case 1:
 
-            return 4;
+                default:
+                    Console.WriteLine("Leider ist diese Richtung noch nicht definiert");
+                    break;
+            }
+            return -1;
         }
     }
 
     //ein einzelner KartenEintrag
-    class KartenPos{
-        bool befahrbar = false;
-    }
     class referenzPunkte{
-        int referenzNr = -1;
-        int x=0;
-        int y=0;
+        public int referenzNr = -1;
+        public int x=0;
+        public int y=0;
     }
 }
