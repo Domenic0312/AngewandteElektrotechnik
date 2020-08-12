@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using KartenDaten;
 
 namespace Sensoren
 {
@@ -26,5 +27,11 @@ namespace Sensoren
     }
     class distanceSensors:sensor{
 
+        public distanceSensors(String _Name, int _pinOne, int _pinTwo){
+          Name = _Name;
+        }
+        void getDistance(){
+            
+        }
     }
 }
