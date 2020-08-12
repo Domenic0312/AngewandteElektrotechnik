@@ -21,3 +21,4 @@
 | Visuell| Kamera  | Nachtsicht| Dunkelheit |  Hitze, Feuer, Kälte |Können sinvoll sein wenn die Thermal\Infrarot Kamera Probleme mit der Hitze im Raum bekommt.|
 | Audio  | Lautsprecher | 360° | von überall hörbar   | Störsignale, Hitze, Kälte, Feuer | Sind perfekt für Räume ausgelegt da sich unser Fahrzeug nicht drehen muss um eine Mitteilung von Patienten zu erhalten.|
 | Audio  | Mikrofon | Richtmikrofon | hohe Qualität| Störsignale, Hitze, Kälte | Gute Qualität jedoch nur für bestimmte Richtungen/Berreiche |
+| Audio  | Mikrofon | Rundmikrofon | hohe Qualität| Störsignale, Hitze, Kälte | Gute Qualität kann Audiosignale aus allen Richtungen wahrnehmen |
