@@ -30,7 +30,7 @@ Zudem kann ein Kettenfahrzeig sich auf der Stelle drehen und ist von der Fahrtri
 - Laser
 - Infrarot
 
-> Laser hat eine hohe Reichweite und INfrarot eine kurze Reichweite.Recht zuverlässig.
+> Laser hat eine hohe Reichweite und Infrarot eine kurze Reichweite.Recht zuverlässig.
 
 ## Kamera
 - Thermalcamera/Infrarot
