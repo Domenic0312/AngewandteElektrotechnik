@@ -23,12 +23,20 @@ namespace Sensoren
         }
     }
     class battery:sensor{
+        int wert;
 
+        public battery(String _Name, int pinOne, int pinTwo){
+            Name = _Name;
+            Pins _= new int[]{pinOne, pinTwo};
+
+        }
+        public int getState(){
+
+            return 75;
+        }
     }
     class distanceSensor:sensor{
         int viewDirection = 0;
-        int pinOne;
-        int pinTwo;
         public distanceSensor(String _Name, int _pinOne, int _pinTwo, int _viewDirection){
             Name = _Name;
             Pins = new int[]{_pinOne,_pinTwo};
