@@ -8,7 +8,8 @@
 | Fortrieb im Wasser       | KEIN      |   Schiffsschraube hinten |
 | Auftrieb im Wasser  | KEIN      |    Wasserdüsen unten  |
 | |        |     |
-| Räume     | 2:  Personenraum oben + Technikraum unten|   3: Personenraum oben + Technikraum mitte Luftraum unten |
+| Räume     | 2:  Personenraum oben + 
+Technikraum unten|   3: Personenraum oben + Technikraum mitte + Luftraum unten |
 | |      |    |
-| col 2 is      | centered      |   $12 |
+| PUMPE      | KEIN      |  Eine Pumpe für Düsen |
 | zebra stripes | are neat      |    $1 |
