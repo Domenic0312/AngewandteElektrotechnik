@@ -1,5 +1,6 @@
 ﻿using System;
 using KartenDaten;
+using Sensoren;
 
 namespace cSharp
 {
@@ -7,13 +8,13 @@ namespace cSharp
     {
         static void Main(string[] args)
         {
-            //Kartenobjekt erzeugen
-            Karte karte = new Karte();
-
             //Karte generieren (Karten array fuellen)
-            karte.genKarte();
+            Karte.genKarte();
+
+            distanceSensor distOne = new distanceSensor("SensorgenNorden",0,1,0);
+
             //Abstand von der Position 44/65 nach Norden abfragen
-            int distance = karte.getDistance(66,164,4);
+            int distance = distOne.getDistance(66,164);
             Console.WriteLine("Abstand ist: {0}",distance);
         }
     }

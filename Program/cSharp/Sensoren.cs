@@ -25,13 +25,17 @@ namespace Sensoren
     class battery:sensor{
 
     }
-    class distanceSensors:sensor{
-
-        public distanceSensors(String _Name, int _pinOne, int _pinTwo){
-          Name = _Name;
+    class distanceSensor:sensor{
+        int viewDirection = 0;
+        int pinOne;
+        int pinTwo;
+        public distanceSensor(String _Name, int _pinOne, int _pinTwo, int _viewDirection){
+            Name = _Name;
+            Pins = new int[]{_pinOne,_pinTwo};
+            viewDirection = _viewDirection;
         }
-        void getDistance(){
-            
+        public int getDistance(int posX, int posY){
+            return Karte.getDistance(posX, posY, viewDirection);
         }
     }
 }

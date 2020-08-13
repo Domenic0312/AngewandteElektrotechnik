@@ -6,10 +6,10 @@ using System.Linq;
 namespace KartenDaten
 {
     class Karte{
-        List<List<String>> kartenArr = new List<List<String>>();
-        List<referenzPunkte> refPunkte = new List<referenzPunkte>();
+        static List<List<String>> kartenArr = new List<List<String>>();
+        static List<referenzPunkte> refPunkte = new List<referenzPunkte>();
 
-        private void loadKarte(){
+        private static void loadKarte(){
             //Karte zeilenweise einlesen
             string line;
             StreamReader file = new StreamReader(@"karteSmall.csv");   
@@ -23,7 +23,7 @@ namespace KartenDaten
             System.Console.WriteLine("Karte wurde eingelesen, Liste wurde angelegt.");  
         }
 
-        private void loadReferenz(){
+        private static void loadReferenz(){
             //Karte zeilenweise einlesen
             string line;
             StreamReader file = new StreamReader(@"referenz.csv");   
@@ -40,7 +40,7 @@ namespace KartenDaten
             file.Close();  
             System.Console.WriteLine("ReferenzStationen wurde eingelesen, Liste wurde angelegt.");  
         }
-        public void genKarte(){
+        public static void genKarte(){
             Console.WriteLine("------ Initialisieren der Umgebung ------\n\n");
             //Generieren der Karte.
             loadKarte();
@@ -57,7 +57,7 @@ namespace KartenDaten
             return new int[]{200,50};
         }
         
-        public int getDistance(int posX, int posY, int richtung){
+        public static int getDistance(int posX, int posY, int richtung){
             //Distanz in eine definierte Richtung. Richtung 0 = Norden. 
             //Wird im Uhrzeugersinn gedreht
             Console.WriteLine("Abstand von Position {0}/{1} in Richtung {2} wurde abgefragt",posX, posY, richtung);
