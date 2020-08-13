@@ -1,8 +1,13 @@
-#H Überabreitung Protoyp 1 auf zusätzlichen Wasser Modus
+# Überabreitung Protoyp 1 auf zusätzlichen Wasser Modus
 
 
-| Tables        | Are           | Cool  |
+|   Element     | Vorher          | Nachher |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| Forttrieb      | Ketten | Ketten |
+| --- | ---      |   ---|
+| Fortrieb im Wasser       | KEIN      |   Schiffsschraube hinten |
+| Auftrieb im Wasser  | KEIN      |    Wasserdüsen unten  |
+| Räume     | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
