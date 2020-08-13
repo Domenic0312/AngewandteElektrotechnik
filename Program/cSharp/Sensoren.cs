@@ -10,10 +10,10 @@ namespace Sensoren
         public int[] Pins;
         public String Name;
 
-        void connect(){
+        public void connect(){
             Console.WriteLine("Verbindung zu Sensor {0} wurde aufgebaut. Pins: {1},{2}", Name, Pins[0], Pins[1]);
         }
-        void disconnect(){
+        public void disconnect(){
             Console.WriteLine("Verbindung zu Sensor {0} wurde beendet. Pins: {1},{2}", Name, Pins[0], Pins[1]);
         }
     }
@@ -33,6 +33,7 @@ namespace Sensoren
             Name = _Name;
             Pins = new int[]{_pinOne,_pinTwo};
             viewDirection = _viewDirection;
+            connect();
         }
         public int getDistance(int posX, int posY){
             return Karte.getDistance(posX, posY, viewDirection);
