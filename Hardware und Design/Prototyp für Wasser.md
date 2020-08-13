@@ -10,7 +10,7 @@
 | |        |     |
 | Räume     | 2:  Personenraum oben + Technikraum unten|   3: Personenraum oben + Technikraum mitte + Luftraum unten |
 | |      |    |
-| PUMPE      | KEIN      |  Eine Pumpe für Düsen |
+| PUMPE      | KEIN      |  1 Pumpe für Düsen |
 | |      |    |
 | Motoren Insgesamt | KEIN     |   8  |
 | |      |    |
@@ -19,3 +19,8 @@
 | Motor Tür  |     |   1  |
 | Motor Schiffsschraube Höhenregelung|     |   1  |
 | Motor Schiffsschraube|     |   1  |
+| |      |    |
+| Display|       |   1   |
+|        |     |
+| LED |       | 4 LED:  2 Hinten + 2 Vorne
+| |       |     |
