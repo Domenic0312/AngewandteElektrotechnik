@@ -17,7 +17,6 @@ namespace cSharp
                 sensorik.append(new distanceSensor("Name...",0 ,1 , i));
             }
 
-
             distanceSensor distOne = new distanceSensor("SensorgenNorden",0,1,0);
 
             //Abstand von der Position  nach Norden abfragen
