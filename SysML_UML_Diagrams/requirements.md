@@ -7,13 +7,13 @@
 | NF | **013**  | Die Sensoren müssen in gleiche Abständen am Auto angebracht sein (N, NO, O, OS, S, SW, W, WN).| 
 | F  | **014**  | Der Roboter Hindernissen ausweichen.| 
 | F  | **020**  | Der Roboter auf Land fahren können.|
-| NF | **021**  | Die Räder am Robter müssen vier Mecanum-Räder sein.|      
+| NF | **021**  | ~~Die Räder am Robter müssen vier Mecanum-Räder sein.~~ Der Antrieb müssen Ketten sein|      
 | F  | **030**  | Der Roboter muss durch Wasser fahren können.|    
-| NF | **031**  | Der Roboter muss einen Propeller besitzen.|                                    
+| NF | **031**  | Der Roboter muss einen ~~Propeller~~ Schiffsschraube besitzen.|                                    
 | F  | **041**  | Der Roboter muss erkennen ob er auf Wasser oder Land fährt.|
-| NF | **042**  | (Der Roboter muss einen Feuchtigkeitssensor besitzten.)|
-| F  | **043**  | Der Roboter muss für das Fahren durch das Wasser den Propeller verwenden.|
-| F  | **044**  | Der Roboter muss für das Fahren auf dem Land die Räder verwenden.|
+| NF | **042**  | Der Roboter muss einen Feuchtigkeitssensor besitzten.|
+| F  | **043**  | Der Roboter muss für das Fahren durch das Wasser den ~~Propeller~~ Schiffsschraube verwenden.|
+| F  | **044**  | Der Roboter muss für das Fahren auf dem Land die ~~Räder~~ Ketten verwenden.|
 | NF | **050**  | Der Roboter muss einen Kompass besitzen.|
 | F  | **060**  | Der Roboter muss einen Akku besitzten.|
 | F  | **070**  | Der Roboter muss mit dem "Umweltsystem" interagieren.|
