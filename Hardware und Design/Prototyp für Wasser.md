@@ -24,3 +24,13 @@
 |        |     |
 | LED |       | 4 LED:  2 Hinten + 2 Vorne
 | |       |     |
+| Kamera normal|   1 Vorne    |   1 Vorne und vl oben?  |
+| Kamera Infrarot|       |   1 Vorne oder mehrere? |
+| Kamera Thermal |       |   1 Vorne oder mehrere?  |
+| |       |     |
+| Feuchtigkeitssensor |       |  1 Unten   |
+| Abstandssensoren |       |   8: Jeweils 2 an Ecken  |
+| |       |     |
+| Mikrofon |       | 1 Vorne    |
+| |       |     |
+| Lautsprecher|       |   1 Vorne und hinten? oder oben?  |
