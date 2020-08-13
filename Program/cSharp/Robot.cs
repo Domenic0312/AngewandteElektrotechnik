@@ -26,24 +26,24 @@ namespace RescuteRobot
     }
     class Powertrain
     {
-        public int move(int direction, int distance)
+        public int move(int direction, int distance)//asd
         {
 
-            return 0;
+            return 0;//asd
         }
         public int getBatteryState()
         {
            // float battery = sensor.getBatteryState();
-           return 0;
+           return 0;//asd
         }
     }
     class Motor
     {
         int[] pins;
-        public int rotate(int rpm, int revolution)
+        public int rotate(int rpm, int revolution)//asd
         {
             
-            return 0;
+            return 0;//asd
         }
 
     }
