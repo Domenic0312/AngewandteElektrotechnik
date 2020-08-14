@@ -48,15 +48,7 @@ namespace KartenDaten
             loadReferenz();
             Console.WriteLine("\n\n------ Initialisieren der Umgebung beendet ------\n");
         }
-        public int[] getStartPos(){
-            //Position von der aus der Roboter startet
-            return new int[]{66,164};
-        }
-        public int[] getEndPos(){
-            //Position der verletzten Person
-            return new int[]{200,50};
-        }
-        
+
         public static int getDistance(int posX, int posY, int richtung){
             //Distanz in eine definierte Richtung. Richtung 0 = Norden. 
             //Wird im Uhrzeugersinn gedreht

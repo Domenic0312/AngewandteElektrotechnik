@@ -20,19 +20,20 @@ namespace Sensoren
     class radioSensor:sensor{
         public radioSensor(String _Name, int _pinOne, int _pinTwo){
             Name = _Name;
+            Pins = new int[]{_pinOne, _pinTwo};
+            connect();
         }
     }
     class battery:sensor{
-        int wert;
+        int wert = 75;
 
         public battery(String _Name, int pinOne, int pinTwo){
             Name = _Name;
             Pins _= new int[]{pinOne, pinTwo};
-
+            connect();
         }
         public int getState(){
-
-            return 75;
+            return wert;
         }
     }
     class distanceSensor:sensor{
