@@ -29,7 +29,7 @@ namespace Sensoren
 
         public battery(String _Name, int pinOne, int pinTwo){
             Name = _Name;
-            Pins _= new int[]{pinOne, pinTwo};
+            Pins = new int[]{pinOne, pinTwo};
             connect();
         }
         public int getState(){
@@ -43,6 +43,10 @@ namespace Sensoren
             Pins = new int[]{_pinOne,_pinTwo};
             viewDirection = _viewDirection;
             connect();
+        }
+
+        public distanceSensor(){
+            
         }
         public int getDistance(int posX, int posY){
             return Karte.getDistance(posX, posY, viewDirection);
