@@ -1,6 +1,7 @@
 ﻿using System;
 using KartenDaten;
 using Sensoren;
+using System.Collections.Generic;
 
 namespace cSharp
 {
@@ -10,12 +11,6 @@ namespace cSharp
         {
             //Karte generieren (Karten array fuellen)
             Karte.genKarte();
-
-            List<distanceSensor> sensorik = new List<distanceSensor>();
-
-            for(int i=0;i<8;i++){
-                sensorik.append(new distanceSensor("Name...",0 ,1 , i));
-            }
 
             distanceSensor distOne = new distanceSensor("SensorgenNorden",0,1,0);
 

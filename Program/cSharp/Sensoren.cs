@@ -44,6 +44,10 @@ namespace Sensoren
             viewDirection = _viewDirection;
             connect();
         }
+
+        public distanceSensor(){
+            
+        }
         public int getDistance(int posX, int posY){
             return Karte.getDistance(posX, posY, viewDirection);
         }
