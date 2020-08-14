@@ -29,7 +29,7 @@ namespace Sensoren
 
         public battery(String _Name, int pinOne, int pinTwo){
             Name = _Name;
-            Pins _= new int[]{pinOne, pinTwo};
+            Pins = new int[]{pinOne, pinTwo};
             connect();
         }
         public int getState(){
