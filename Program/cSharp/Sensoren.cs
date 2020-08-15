@@ -37,7 +37,7 @@ namespace Sensoren
         }
     }
     class distanceSensor:sensor{
-        int viewDirection = 0;
+        public int viewDirection = 0;
         public distanceSensor(String _Name, int _pinOne, int _pinTwo, int _viewDirection){
             Name = _Name;
             Pins = new int[]{_pinOne,_pinTwo};
