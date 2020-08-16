@@ -25,15 +25,15 @@
 |        |     |
 | LED |       | 4 LED:  (NO, OS, SW, WN).
 | |       |     |
-| Kamera normal|   1 Vorne    |   1 Vorne und vl oben?  |
-| Kamera Infrarot|       |   1 Vorne oder mehrere? |
-| Kamera Thermal |       |   1 Vorne oder mehrere?  |
+| Kamera normal|   1 Vorne    |   1 Vorne   |
+| Kamera Infrarot|       |   1 |
+| Kamera Thermal |       |   1   |
 | |       |     |
 | Feuchtigkeitssensor |       |  1 Unten   |
 | Abstandssensoren |       |   8: (N, NO, O, OS, S, SW, W, WN)  |
 | |       |     |
 | Mikrofon |       | 1 Vorne    |
 | |       |     |
-| Lautsprecher|       |   1 Vorne und hinten? oder oben?  |
+| Lautsprecher|       |   1 Vorne|
 | |       |     |
 | Kompass|       |  1|
