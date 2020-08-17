@@ -45,11 +45,11 @@ namespace Sensoren
             connect();
         }
 
-        public distanceSensor(){
-            
-        }
+        public distanceSensor(){}
         public int getDistance(int posX, int posY){
-            return Karte.getDistance(posX, posY, viewDirection);
+            int dist = Karte.getDistance(posX, posY, viewDirection);
+            Console.WriteLine("Abstand von Position {0}/{1} in Richtung {2} ist {3}",posX, posY, viewDirection, dist);
+            return dist;
         }
     }
 }

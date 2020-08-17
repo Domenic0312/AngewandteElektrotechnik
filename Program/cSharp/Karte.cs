@@ -52,15 +52,12 @@ namespace KartenDaten
         public static int getDistance(int posX, int posY, int richtung){
             //Distanz in eine definierte Richtung. Richtung 0 = Norden. 
             //Wird im Uhrzeugersinn gedreht
-            Console.WriteLine("Abstand von Position {0}/{1} in Richtung {2} wurde abgefragt",posX, posY, richtung);
+            
             switch(richtung){
                 case 0://Norden
                     for(int i=posY; i >= 0;i--){
-                        Console.WriteLine("i:{0} : Wert:{1}",i, kartenArr[i][posX]);
                         if(kartenArr[i][posX].Trim() == "1"){
                             int dist = (posY-i);
-                            Console.WriteLine("Hoehe: {0}", i);
-                            Console.WriteLine("Abstand ist {0}", dist);
                             return dist;
                         }
                     }
@@ -69,18 +66,20 @@ namespace KartenDaten
 
                     break;
                 case 2://Osten
-
+                    for(int i=posX;i< kartenArr[posY].Count;i++){
+                        if(kartenArr[posY][i].Trim() == "1"){
+                            int dist = (i-posX);
+                            return dist;
+                        }
+                    }
                     break;
                 case 3://SüdOsten
 
                     break;
                 case 4: //Süden
                     for(int i=posY; i < kartenArr.Count ; i++){
-                        Console.WriteLine("i:{0} : Wert:{1}",i, kartenArr[i][posX]);
                         if(kartenArr[i][posX].Trim() == "1"){
                             int dist = (i-posY);
-                            Console.WriteLine("Hoehe: {0}", i);
-                            Console.WriteLine("Abstand ist {0}", dist);
                             return dist;
                         }
                     }
@@ -89,7 +88,12 @@ namespace KartenDaten
 
                     break;
                 case 6: //Westen
-
+                    for(int i=posX;i>=0;i--){
+                        if(kartenArr[posY][i].Trim() == "1"){
+                            int dist = (posX-i);
+                            return dist;
+                        }
+                    }
                     break;
                 case 7: //Nordwesten
 
