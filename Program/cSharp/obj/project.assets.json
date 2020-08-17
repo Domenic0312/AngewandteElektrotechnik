@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/Users/domenicdrechsel/.nuget/packages/": {}
+    "C:\\Users\\domen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/cSharp.csproj",
+      "projectUniqueName": "C:\\Users\\domen\\Documents\\GitHub\\AngewandteElektrotechnik\\Program\\cSharp\\cSharp.csproj",
       "projectName": "cSharp",
-      "projectPath": "/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/cSharp.csproj",
-      "packagesPath": "/Users/domenicdrechsel/.nuget/packages/",
-      "outputPath": "/Users/domenicdrechsel/Documents/GitHub/AngewandteElektrotechnik/Program/cSharp/obj/",
+      "projectPath": "C:\\Users\\domen\\Documents\\GitHub\\AngewandteElektrotechnik\\Program\\cSharp\\cSharp.csproj",
+      "packagesPath": "C:\\Users\\domen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\domen\\Documents\\GitHub\\AngewandteElektrotechnik\\Program\\cSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/domenicdrechsel/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\domen\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
