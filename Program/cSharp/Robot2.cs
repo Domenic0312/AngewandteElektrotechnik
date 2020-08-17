@@ -66,12 +66,7 @@ namespace RescueRobot
         public void drive() 
         {
             int[] dir = logic.getdirection(new int[] { 66, 164 }); //Richtung, Entfernung von Logik
-            power.drive(dir[0], dir[1]);
-
-            //int[] move = new int[] { 0, 1 };
-            //power.move(new int[] { 0, 1 });
-            //int[] drive = new int[] { 0, 10 }; // Richtung 0, Distanz 10 Blöcke
-            //PowerTrain.move(new int 0, 10)            
+            power.drive(dir[0], dir[1]);          
             
         }
     }
