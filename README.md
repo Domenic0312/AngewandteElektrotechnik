@@ -40,6 +40,8 @@
 
 ## 4. Meilenstein (17.08.2020)
 
+-[Implementierung]()
+
 ## Finales Kolloquium (24.08.2020)
 
 ## Abgabe Arbeit (27.08.2020)
