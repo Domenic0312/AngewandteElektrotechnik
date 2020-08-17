@@ -10,28 +10,46 @@ namespace Sensoren
         public int[] Pins;
         public String Name;
 
-        void connect(){
+        public void connect(){
             Console.WriteLine("Verbindung zu Sensor {0} wurde aufgebaut. Pins: {1},{2}", Name, Pins[0], Pins[1]);
         }
-        void disconnect(){
+        public void disconnect(){
             Console.WriteLine("Verbindung zu Sensor {0} wurde beendet. Pins: {1},{2}", Name, Pins[0], Pins[1]);
         }
     }
     class radioSensor:sensor{
         public radioSensor(String _Name, int _pinOne, int _pinTwo){
             Name = _Name;
+            Pins = new int[]{_pinOne, _pinTwo};
+            connect();
         }
     }
     class battery:sensor{
+        int wert = 75;
 
-    }
-    class distanceSensors:sensor{
-
-        public distanceSensors(String _Name, int _pinOne, int _pinTwo){
-          Name = _Name;
+        public battery(String _Name, int pinOne, int pinTwo){
+            Name = _Name;
+            Pins = new int[]{pinOne, pinTwo};
+            connect();
         }
-        void getDistance(){
+        public int getState(){
+            return wert;
+        }
+    }
+    class distanceSensor:sensor{
+        public int viewDirection = 0;
+        public distanceSensor(String _Name, int _pinOne, int _pinTwo, int _viewDirection){
+            Name = _Name;
+            Pins = new int[]{_pinOne,_pinTwo};
+            viewDirection = _viewDirection;
+            connect();
+        }
+
+        public distanceSensor(){
             
+        }
+        public int getDistance(int posX, int posY){
+            return Karte.getDistance(posX, posY, viewDirection);
         }
     }
 }
