@@ -7,20 +7,41 @@ using System.ComponentModel;
 using System.Globalization;
 using Sensoren;
 using System.Runtime.CompilerServices;
-using robotLogik;
 
 namespace RescueRobot
 {
+    class Logic
+    {
+        public int[] move;
+        public void fahren(int _direction, int _distance)
+        {
+            move = new int[] { _direction, _distance };
+        }
+        public int[] getdirection(int[] startpos)
+        {
 
+            int[] endpos = new int[] { 200, 50 };
+            Console.WriteLine("Endposition bzw. Position des Bergungsobjektes ist:{0}", endpos[0]);
+
+            int[] direction = new int[] { endpos[0] - startpos[0], endpos[1] - startpos[1] };
+            Console.WriteLine("Die Richtung ist:{0},{1}", direction[0], direction[1]);
+            return direction;
+
+        }
+    }
     class Robot
     {
         PowerTrain power = new PowerTrain();
         Logic logic = new Logic();
+
         /*
+
         7   0   1
         6       2
         5   4   3
+        
         */
+
         List<distanceSensor> sensorik = new List<distanceSensor>();
 
         public void distanceSensoren()
@@ -44,22 +65,9 @@ namespace RescueRobot
 
         public void drive() 
         {
-            wayPoint p1 = logic.getWay(new int[] { 66, 164 },new int[] { 66, 159}, sensorik ); //Richtung, Entfernung von Logik
-            if(p1.reachable){
-                //Dahin fahren
-            }
-            wayPoint p2 = logic.getWay(new int[] { 66, 159 },new int[] { 71, 159}, sensorik );
-            if(p2.reachable){
-                //Dahin fahren
-            }
-            wayPoint p3 = logic.getWay(new int[] { 71, 159 },new int[] { 71, 164}, sensorik );
-            if(p3.reachable){
-                //Dahin fahren
-            }
-            wayPoint p4 = logic.getWay(new int[] { 71, 164 },new int[] { 66, 164}, sensorik );
-            if(p4.reachable){
-                //Dahin fahren
-            }
+            int[] dir = logic.getdirection(new int[] { 66, 164 }); //Richtung, Entfernung von Logik
+            power.drive(dir[0], dir[1]);          
+            
         }
     }
 
