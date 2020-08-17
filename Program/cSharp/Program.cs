@@ -13,7 +13,7 @@ namespace cSharp
             //Karte generieren (Karten array fuellen)
             karte.genKarte();
             //Abstand von der Position 44/65 nach Norden abfragen
-            int distance = karte.getDistance(66,164,4);
+            int distance = karte.getDistance(66,164,0);
             Console.WriteLine("Abstand ist: {0}",distance);
         }
     }
