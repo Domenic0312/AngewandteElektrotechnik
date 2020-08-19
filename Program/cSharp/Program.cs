@@ -12,7 +12,7 @@ namespace cSharp
             //Karte generieren (Karten array fuellen)
             Karte.genKarte();
             Robot rob = new Robot();
-            rob.distanceSensoren();
+            rob.makeSensors();
             rob.drive();
         }
     }
