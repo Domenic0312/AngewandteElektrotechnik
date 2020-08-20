@@ -1,6 +1,4 @@
 0;70;50;;oben links Referenzstation
-1;40;270;;oben rechts Referenzstation
-2;150;268;;Rescue Object
-3;157;72;;Startposition
-;;;;
-;x;y;;
+1;270;54;;oben rechts Referenzstation
+2;268;150;;Rescue Object
+3;72;155;;Startposition
