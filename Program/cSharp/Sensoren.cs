@@ -24,6 +24,22 @@ namespace Sensoren
             connect();
         }
     }
+    class waterSensor:sensor{
+        public waterSensor(String _Name, int _pinOne, int _pinTwo){
+            Name = _Name;
+            Pins = new int[]{_pinOne, _pinTwo};
+            connect();
+        }
+
+        public bool isWater(int posX, int posY, int viewDirection){
+            int terrain = Karte.getTerrain(posX, posY, viewDirection);
+            if(terrain == 2){
+                return true;
+            }
+            return false;
+        }
+
+    }
     class battery:sensor{
         int wert = 75;
 

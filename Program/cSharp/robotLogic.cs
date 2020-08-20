@@ -16,8 +16,8 @@ namespace robotLogik
         public wayPoint getWay(int[] startpos, int[] endPos, List<distanceSensor> sensorik) 
         {
             wayPoint point = calcDirDist(startpos,endPos,sensorik);
+            Console.WriteLine("Frage Abstandssensoren in Richtung {0} ab.", point.direction);
             int dist = sensorik[point.direction].getDistance(startpos[0],startpos[1]);
-
 
             if(point.distance>0){
                 Console.WriteLine("Der Weg vom Startpunkt {0}/{1} zum Endpunkt {2}/{3} ist in Richtung {4} mit der Entfernung {5}", startpos[0], startpos[1], endPos[0], endPos[1], point.direction, point.distance);
