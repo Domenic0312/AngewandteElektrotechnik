@@ -70,19 +70,37 @@ namespace RescueRobot
         public void shortWay(List<referenzPunkte> refPunkte)
         {            
             Console.WriteLine("");
-            wayPoint p5 = logic.getWay(new int[] { refPunkte[3].x, refPunkte[3].y }, new int[] { refPunkte[2].x, refPunkte[2].y }, sensorik); // Start -> Rescue Object
-            if (p5.reachable)
-            {
-                //Dahin fahren
-                power.drive(refPunkte[3].x, refPunkte[3].y, p5.direction, p5.distance, water);
-            }
-            Console.WriteLine("");
-            wayPoint p4 = logic.getWay(new int[] { refPunkte[2].x, refPunkte[2].y }, new int[] { refPunkte[3].x, refPunkte[3].y }, sensorik); // Rescue Object -> Startposition
+            fahreVonBis(new int[] { refPunkte[3].x, refPunkte[3].y }, new int[] { refPunkte[2].x, refPunkte[2].y }, sensorik);
+            fahreVonBis(new int[] { refPunkte[2].x, refPunkte[2].y }, new int[] { refPunkte[3].x, refPunkte[3].y }, sensorik);
+        }
+
+        bool fahreVonBis(int[] startpos, int[] endPos, List<distanceSensor> sensorik){
+            wayPoint p4 = logic.getWay(startpos, endPos, sensorik); // Rescue Object -> Startposition
             if (p4.reachable)
             {
-                //Dahin fahren
-                power.drive(refPunkte[2].x, refPunkte[2].y, p4.direction, p4.distance, water);
+                power.drive(startpos[0], startpos[1], p4.direction, p4.distance, water);
+            }else{
+                Console.WriteLine("Der Punkt {0}/{1} ist von der StartPosition {2}/{3} nicht erreichbar", endPos[0], endPos[1], startpos[0], startpos[1]);
+                Console.WriteLine("\nBerechne Abstand bis Hindernis");
+                //Fahren bis Hinderniss
+                int[] zwischenEndPos = new int[2];
+                switch(p4.direction){
+                    case 2:
+                        zwischenEndPos = new int[]{ startpos[0]+p4.hindernis,endPos[1]};
+                        break;
+                    case 6:
+                        zwischenEndPos = new int[]{ startpos[0]-p4.hindernis,endPos[1]};
+                        break;
+                }
+                wayPoint p4Temp = logic.getWay(startpos, zwischenEndPos, sensorik);
+    	        power.drive(startpos[0], startpos[1], p4Temp.direction, p4Temp.distance, water);
+
+                //Wegräumen
+                Console.WriteLine("\nRäume Hindernis weg\n");
+                //weiter düsen
+                Console.WriteLine("Fahre weiter bis zur EndPosition");
             }
+            return true;
         }
         public void longWay(List<referenzPunkte> refPunkte)
         {

@@ -23,12 +23,13 @@ namespace robotLogik
             Console.WriteLine("Frage Abstandssensoren in Richtung {0} ab.", point.direction);
             int dist = sensorik[point.direction].getDistance(startpos[0],startpos[1]);
 
-
-            if(point.distance>0){
+            //Punkt erreichbar?
+            if (dist<point.distance){
+                point.reachable = false;
+                point.hindernis = dist;
+            }else{
                 Console.WriteLine("Der Weg vom Startpunkt {0}/{1} zum Endpunkt {2}/{3} ist in Richtung {4} mit der Entfernung {5}", startpos[0], startpos[1], endPos[0], endPos[1], point.direction, point.distance);
                 point.reachable = true;            
-            }else{
-                Console.WriteLine("Der Wegpunkt ist leider nicht erreichbar");
             }
             return point;
         }
