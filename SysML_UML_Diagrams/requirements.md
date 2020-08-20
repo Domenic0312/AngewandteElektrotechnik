@@ -5,7 +5,7 @@
 | F  | **011**  | Der Roboter muss den Abstand zu den Hindernissen erkennen.|
 | NF | **012**  | Der Roboter muss mit acht Sensoren ausgestattet sein.| 
 | NF | **013**  | Die Sensoren müssen in gleiche Abständen am Auto angebracht sein (N, NO, O, OS, S, SW, W, WN).| 
-| F  | **014**  | Der Roboter Hindernissen ausweichen.| 
+| F  | **014**  | Der Roboter muss Hindernisse entfernen.| 
 | F  | **020**  | Der Roboter auf Land fahren können.|
 | NF | **021**  | ~~Die Räder am Robter müssen vier Mecanum-Räder sein.~~ Der Antrieb müssen Ketten sein|      
 | F  | **030**  | Der Roboter muss durch Wasser fahren können.|    
