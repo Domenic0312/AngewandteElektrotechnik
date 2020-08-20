@@ -23,6 +23,11 @@ namespace Sensoren
             Pins = new int[]{_pinOne, _pinTwo};
             connect();
         }
+        public List<referenzPunkte> getRefPoint()
+        {
+            
+            return Karte.refPunkte;
+        }
     }
     class waterSensor:sensor{
         public waterSensor(String _Name, int _pinOne, int _pinTwo){

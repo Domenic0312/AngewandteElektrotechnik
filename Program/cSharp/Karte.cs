@@ -7,7 +7,7 @@ namespace KartenDaten
 {
     class Karte{
         static List<List<String>> kartenArr = new List<List<String>>();
-        static List<referenzPunkte> refPunkte = new List<referenzPunkte>();
+        public static List<referenzPunkte> refPunkte = new List<referenzPunkte>();
 
         private static void loadKarte(){
             //Karte zeilenweise einlesen
@@ -34,7 +34,7 @@ namespace KartenDaten
                 refPoint.referenzNr = Convert.ToInt32(liste[0]);
                 refPoint.x = Convert.ToInt32(liste[1]);
                 refPoint.y = Convert.ToInt32(liste[2]);
-
+               
                 refPunkte.Add(refPoint);
             }
             file.Close();  

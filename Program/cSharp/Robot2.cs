@@ -8,6 +8,7 @@ using System.Globalization;
 using Sensoren;
 using System.Runtime.CompilerServices;
 using robotLogik;
+using KartenDaten;
 
 namespace RescueRobot
 {
@@ -23,6 +24,7 @@ namespace RescueRobot
         */
         List<distanceSensor> sensorik = new List<distanceSensor>();
         waterSensor water;
+        radioSensor radioPlace;
         public void makeSensors()
         {
 
@@ -40,38 +42,81 @@ namespace RescueRobot
                 Console.WriteLine("Sensor:" + sensor.Name + ";" + sensor.Pins[0] + ";" + sensor.Pins[1] + ";" + sensor.viewDirection);
             }
             water = new waterSensor("Wasser Sensor",17,18);
+            radioPlace = new radioSensor("Radio Sensor", 19, 20);
 
         }
 
-
+        
         public void drive() 
         {
+            radioPlace.getRefPoint();
+            List<referenzPunkte> refPunkte = radioPlace.getRefPoint();
+            Random rnd = new Random();
+            int wert = rnd.Next(0, 2);
+            
+            if(wert == 0)
+            {
+                Console.WriteLine("Fährt kurzen Weg.");
+                shortWay(refPunkte);
+                Console.WriteLine("Person erfolgreich geborgen und am Startpunkt zurück!");
+            }
+            else
+            {
+                Console.WriteLine("Fährt langen Weg.");
+                longWay(refPunkte);
+                Console.WriteLine("Person erfolgreich geborgen und am Startpunkt zurück!");
+            }
+        }
+        public void shortWay(List<referenzPunkte> refPunkte)
+        {            
             Console.WriteLine("");
-            wayPoint p1 = logic.getWay(new int[] { 66, 164 },new int[] { 66, 159}, sensorik ); //Richtung, Entfernung von Logik
-            if(p1.reachable){
+            wayPoint p5 = logic.getWay(new int[] { refPunkte[3].x, refPunkte[3].y }, new int[] { refPunkte[2].x, refPunkte[2].y }, sensorik); // Start -> Rescue Object
+            if (p5.reachable)
+            {
                 //Dahin fahren
-                power.drive(66,164,p1.direction, p1.distance, water);
+                power.drive(refPunkte[3].x, refPunkte[3].y, p5.direction, p5.distance, water);
             }
             Console.WriteLine("");
-            wayPoint p2 = logic.getWay(new int[] { 66, 159 },new int[] { 71, 159}, sensorik );
-            if(p2.reachable){
+            wayPoint p4 = logic.getWay(new int[] { refPunkte[2].x, refPunkte[2].y }, new int[] { refPunkte[3].x, refPunkte[3].y }, sensorik); // Rescue Object -> Startposition
+            if (p4.reachable)
+            {
                 //Dahin fahren
-                power.drive(66,159,p2.direction, p2.distance, water);
+                power.drive(refPunkte[2].x, refPunkte[2].y, p4.direction, p4.distance, water);
+            }
+        }
+        public void longWay(List<referenzPunkte> refPunkte)
+        {
+            Console.WriteLine("");
+            wayPoint p1 = logic.getWay(new int[] { 72, 157 }, new int[] { refPunkte[0].x, refPunkte[0].y }, sensorik); //Richtung, Entfernung von Logik; Startposition -> oben links
+            if (p1.reachable)
+            {
+                //Dahin fahren
+                power.drive(72, 157, p1.direction, p1.distance, water);
             }
             Console.WriteLine("");
-            wayPoint p3 = logic.getWay(new int[] { 71, 159 },new int[] { 71, 164}, sensorik );
-            if(p3.reachable){
+            wayPoint p2 = logic.getWay(new int[] { refPunkte[0].x, refPunkte[0].y }, new int[] { refPunkte[1].x, refPunkte[1].y }, sensorik); //  oben links -> oben rechts
+            if (p2.reachable)
+            {
                 //Dahin fahren
-                power.drive(71,159,p3.direction, p3.distance, water);
+                power.drive(refPunkte[0].x, refPunkte[0].y, p2.direction, p2.distance, water);
             }
             Console.WriteLine("");
-            wayPoint p4 = logic.getWay(new int[] { 71, 164 },new int[] { 66, 164}, sensorik );
-            if(p4.reachable){
+            wayPoint p3 = logic.getWay(new int[] { refPunkte[1].x, refPunkte[1].y }, new int[] { refPunkte[2].x, refPunkte[2].y }, sensorik); // oben rechts -> Rescue Object
+            if (p3.reachable)
+            {
                 //Dahin fahren
-                power.drive(71,164,p4.direction, p4.distance, water);
+                power.drive(refPunkte[1].x, refPunkte[1].y, p3.direction, p3.distance, water);
+            }
+            Console.WriteLine("");
+            wayPoint p4 = logic.getWay(new int[] { refPunkte[2].x, refPunkte[2].y }, new int[] { refPunkte[3].x, refPunkte[3].y }, sensorik); // Rescue Object -> Startposition
+            if (p4.reachable)
+            {
+                //Dahin fahren
+                power.drive(refPunkte[2].x, refPunkte[2].y, p4.direction, p4.distance, water);
             }
         }
     }
+
 
     class PowerTrain
     {
