@@ -105,33 +105,11 @@ namespace RescueRobot
         public void longWay(List<referenzPunkte> refPunkte)
         {
             Console.WriteLine("");
-            wayPoint p1 = logic.getWay(new int[] { 72, 157 }, new int[] { refPunkte[0].x, refPunkte[0].y }, sensorik); //Richtung, Entfernung von Logik; Startposition -> oben links
-            if (p1.reachable)
-            {
-                //Dahin fahren
-                power.drive(72, 157, p1.direction, p1.distance, water);
-            }
-            Console.WriteLine("");
-            wayPoint p2 = logic.getWay(new int[] { refPunkte[0].x, refPunkte[0].y }, new int[] { refPunkte[1].x, refPunkte[1].y }, sensorik); //  oben links -> oben rechts
-            if (p2.reachable)
-            {
-                //Dahin fahren
-                power.drive(refPunkte[0].x, refPunkte[0].y, p2.direction, p2.distance, water);
-            }
-            Console.WriteLine("");
-            wayPoint p3 = logic.getWay(new int[] { refPunkte[1].x, refPunkte[1].y }, new int[] { refPunkte[2].x, refPunkte[2].y }, sensorik); // oben rechts -> Rescue Object
-            if (p3.reachable)
-            {
-                //Dahin fahren
-                power.drive(refPunkte[1].x, refPunkte[1].y, p3.direction, p3.distance, water);
-            }
-            Console.WriteLine("");
-            wayPoint p4 = logic.getWay(new int[] { refPunkte[2].x, refPunkte[2].y }, new int[] { refPunkte[3].x, refPunkte[3].y }, sensorik); // Rescue Object -> Startposition
-            if (p4.reachable)
-            {
-                //Dahin fahren
-                power.drive(refPunkte[2].x, refPunkte[2].y, p4.direction, p4.distance, water);
-            }
+            fahreVonBis(new int[] { 72, 157 }, new int[] { refPunkte[0].x, refPunkte[0].y }, sensorik);
+            fahreVonBis(new int[] { refPunkte[0].x, refPunkte[0].y }, new int[] { refPunkte[1].x, refPunkte[1].y }, sensorik);
+            fahreVonBis(new int[] { refPunkte[1].x, refPunkte[1].y }, new int[] { refPunkte[2].x, refPunkte[2].y }, sensorik);
+            fahreVonBis(new int[] { refPunkte[2].x, refPunkte[2].y }, new int[] { refPunkte[3].x, refPunkte[3].y }, sensorik);
+            
         }
     }
 
