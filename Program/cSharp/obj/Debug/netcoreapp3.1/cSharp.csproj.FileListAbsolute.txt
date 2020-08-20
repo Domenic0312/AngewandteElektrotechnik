@@ -35,3 +35,4 @@ C:\Users\domen\Documents\GitHub\AngewandteElektrotechnik\Program\cSharp\obj\Debu
 C:\Users\domen\Documents\GitHub\AngewandteElektrotechnik\Program\cSharp\obj\Debug\netcoreapp3.1\cSharp.dll
 C:\Users\domen\Documents\GitHub\AngewandteElektrotechnik\Program\cSharp\obj\Debug\netcoreapp3.1\cSharp.pdb
 C:\Users\domen\Documents\GitHub\AngewandteElektrotechnik\Program\cSharp\obj\Debug\netcoreapp3.1\cSharp.genruntimeconfig.cache
+C:\Users\katri\Documents\AngewandteElektrotechnik\Program\cSharp\obj\Debug\netcoreapp3.1\cSharp.csprojAssemblyReference.cache
