@@ -36,15 +36,12 @@ namespace Sensoren
             connect();
         }
 
-        public bool isWater(int posX, int posY, int viewDirection){
-            int terrain = Karte.getTerrain(posX, posY, viewDirection);
-            if(terrain == 2){
-                return true;
-            }
-            return false;
+        public string isWater(int posX, int posY){
+            string terrain = Karte.getTerrain(posX, posY);
+            return terrain;
         }
-
     }
+
     class battery:sensor{
         int wert = 75;
 

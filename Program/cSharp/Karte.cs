@@ -52,57 +52,8 @@ namespace KartenDaten
             //Empty like my Brain
             return false;
         }
-        public static int getTerrain(int posX, int posY, int richtung){
-            switch(richtung){
-                case 0://Norden
-                    for(int i=posY; i >= 0;i--){
-                        if(kartenArr[i][posX].Trim() == "2"){
-                            int dist = (posY-i);
-                            return 2;
-                        }
-                    }
-                    break;
-                case 1://Nord Osten
-
-                    break;
-                case 2://Osten
-                    for(int i=posX;i< kartenArr[posY].Count;i++){
-                        if(kartenArr[posY][i].Trim() == "2"){
-                            int dist = (i-posX);
-                            return 2;
-                        }
-                    }
-                    break;
-                case 3://SüdOsten
-
-                    break;
-                case 4: //Süden
-                    for(int i=posY; i < kartenArr.Count ; i++){
-                        if(kartenArr[i][posX].Trim() == "2"){
-                            int dist = (i-posY);
-                            return 2;
-                        }
-                    }
-                    break;
-                case 5: //Südwesten
-
-                    break;
-                case 6: //Westen
-                    for(int i=posX;i>=0;i--){
-                        if(kartenArr[posY][i].Trim() == "2"){
-                            int dist = (posX-i);
-                            return 2;
-                        }
-                    }
-                    break;
-                case 7: //Nordwesten
-
-                    break;
-                default: //Alles andere.......
-                    Console.WriteLine("Leider ist diese Richtung noch nicht definiert");
-                    break;
-            }
-            return 1;
+        public static String getTerrain(int posX, int posY){
+            return kartenArr[posY][posX].Trim();;
         }
         public static int getDistance(int posX, int posY, int richtung){
             //Distanz in eine definierte Richtung. Richtung 0 = Norden. 
