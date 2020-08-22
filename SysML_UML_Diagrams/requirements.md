@@ -11,7 +11,7 @@
 | F  | **030**  | Der Roboter muss durch Wasser fahren können.|    
 | NF | **031**  | Der Roboter muss einen ~~Propeller~~ Schiffsschraube besitzen.|                                    
 | F  | **041**  | Der Roboter muss erkennen ob er auf Wasser oder Land fährt.|
-| NF | **042**  | Der Roboter muss einen Feuchtigkeitssensor besitzten.|
+| NF | **042**  | Der Roboter muss einen Feuchtigkeitssensor besitzen.|
 | F  | **043**  | Der Roboter muss für das Fahren durch das Wasser den ~~Propeller~~ Schiffsschraube verwenden.|
 | F  | **044**  | Der Roboter muss für das Fahren auf dem Land die ~~Räder~~ Ketten verwenden.|
 | NF | **050**  | Der Roboter muss einen Kompass besitzen.|
