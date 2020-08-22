@@ -12,9 +12,10 @@ using KartenDaten;
 
 namespace RescueRobot
 {
-
+    
     class Robot
     {
+        int gesamtWeg;
         PowerTrain power = new PowerTrain();
         Logic logic = new Logic();
         /*
@@ -72,10 +73,12 @@ namespace RescueRobot
             Console.WriteLine("");
             fahreVonBis(new int[] { refPunkte[3].x, refPunkte[3].y }, new int[] { refPunkte[2].x, refPunkte[2].y }, sensorik);
             fahreVonBis(new int[] { refPunkte[2].x, refPunkte[2].y }, new int[] { refPunkte[3].x, refPunkte[3].y }, sensorik);
+            Console.WriteLine("Fahrweg: {0} Blöcke", gesamtWeg);
         }
 
         bool fahreVonBis(int[] startpos, int[] endPos, List<distanceSensor> sensorik){
             wayPoint p4 = logic.getWay(startpos, endPos, sensorik); // Rescue Object -> Startposition
+            gesamtWeg += p4.distance;
             if (p4.reachable)
             {
                 power.drive(startpos[0], startpos[1], p4.direction, p4.distance, water);
@@ -109,7 +112,7 @@ namespace RescueRobot
             fahreVonBis(new int[] { refPunkte[0].x, refPunkte[0].y }, new int[] { refPunkte[1].x, refPunkte[1].y }, sensorik);
             fahreVonBis(new int[] { refPunkte[1].x, refPunkte[1].y }, new int[] { refPunkte[2].x, refPunkte[2].y }, sensorik);
             fahreVonBis(new int[] { refPunkte[2].x, refPunkte[2].y }, new int[] { refPunkte[3].x, refPunkte[3].y }, sensorik);
-            
+            Console.WriteLine("Fahrweg: {0} Blöcke", gesamtWeg);
         }
     }
 
