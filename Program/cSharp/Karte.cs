@@ -48,7 +48,7 @@ namespace KartenDaten
             loadReferenz();
             Console.WriteLine("\n\n------ Initialisieren der Umgebung beendet ------\n");
         }
-        public static bool isWater(){
+        public static bool isWater(int[] startPunkt, int[] endPunkt){
             //Empty like my Brain
             return false;
         }

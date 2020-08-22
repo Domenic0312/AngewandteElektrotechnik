@@ -22,6 +22,8 @@ for i in range(0, width):
         r, g, b = rgb_im.getpixel((i*Schrittweite, j*Schrittweite))
         if g>250 and r<20 and b<20:
             arr[j,i] = 1
+        elif g<20 and r>250 and b>200:
+            arr[j,i] = 2
         else:
             arr[j,i] = 0
 

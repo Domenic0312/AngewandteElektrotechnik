@@ -61,5 +61,6 @@
         "utility": "cpp",
         "vector": "cpp",
         "fstream": "cpp"
-    }
+    },
+    "python.pythonPath": "C:\\Users\\domen\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe"
 }
