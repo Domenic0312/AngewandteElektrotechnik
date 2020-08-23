@@ -23,6 +23,6 @@
 | NF | **111**  | Der Roboter muss eine Kamera haben.|--||
 | F  | **112**  | Der Roboter muss nach Erkennung einer Person die Livesteuerung aktivieren.|✅	||
 | NF | **113**  | Der Roboter muss über einen Roboterarm verfügen (für die Livesteuerng).|--||
-| F  | **120**  | Der Roboter muss die Richtung in die er fahren möchte anzeigen.|||
-| NF | **121**  | Der Roboter muss mit einem Display ausgestattet sein.|||
-| NF | **122**  | Das Display muss die nächste Richtung (mit Pfeilen) anzeigen.|||
+| F  | **120**  | Der Roboter muss die Richtung in die er fahren möchte anzeigen.|✅||
+| NF | **121**  | Der Roboter muss mit einem Display ausgestattet sein.|--||
+| NF | **122**  | Das Display muss die nächste Richtung (mit Pfeilen) anzeigen.|--||
