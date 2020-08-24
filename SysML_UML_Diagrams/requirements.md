@@ -4,7 +4,7 @@
 | F  | **010**  | Der Roboter muss Hindernisse erkennen. |✅|--|
 | F  | **011**  | Der Roboter muss den Abstand zu den Hindernissen erkennen. |✅|--|
 | NF | **012**  | Der Roboter muss mit acht Sensoren ausgestattet sein. |✅|✅|
-| NF | **013**  | Die Sensoren müssen in gleiche Abständen am Auto angebracht sein (N, NO, O, OS, S, SW, W, WN). |--|✅|
+| NF | **013**  | Die Sensoren müssen in gleiche Abständen am Roboter angebracht sein (N, NO, O, OS, S, SW, W, WN). |--|✅|
 | F  | **014**  | Der Roboter muss Hindernisse entfernen.|✅ |✅|
 | F  | **020**  | Der Roboter auf Land fahren können.|✅	|✅|
 | F  | **030**  | Der Roboter muss durch Wasser fahren können.|✅|✅|
