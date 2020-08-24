@@ -2,10 +2,10 @@
 | Typ| ID.      | Description  |   SW | HW             |                                                                                                           
 |:---|:---------|:--------------------------------------------------------------------------------------------------------------------------------|----|----|
 | F  | **010**  | Der Roboter muss Hindernisse erkennen.	|✅	||
-| F  | **011**  | Der Roboter muss den Abstand zu den Hindernissen erkennen.|✅	|✅|
+| F  | **011**  | Der Roboter muss den Abstand zu den Hindernissen erkennen.|✅	||
 | NF | **012**  | Der Roboter muss mit acht Sensoren ausgestattet sein.|✅	|✅|
 | NF | **013**  | Die Sensoren müssen in gleiche Abständen am Auto angebracht sein (N, NO, O, OS, S, SW, W, WN).| |✅|
-| F  | **014**  | Der Roboter muss Hindernisse entfernen.| 	|✅|
+| F  | **014**  | Der Roboter muss Hindernisse entfernen.|✅ |✅|
 | F  | **020**  | Der Roboter auf Land fahren können.|	|✅|
 | F  | **030**  | Der Roboter muss durch Wasser fahren können.|	|✅|
 | NF | **031**  | Der Roboter muss einen Propeller besitzen.||✅|                                   
@@ -17,7 +17,7 @@
 | F  | **060**  | Der Roboter muss einen Akku besitzten.||✅|
 | F  | **070**  | Der Roboter muss mit dem "Umweltsystem" interagieren.|✅||
 | F  | **080**  | Der Roboter muss gut sichtbar sein.||✅|
-| NF | **090**  | Der Roboter muss mit vier Lichquellen ausgestattet sein. |✅|✅|
+| NF | **090**  | Der Roboter muss mit vier Lichquellen ausgestattet sein. ||✅|
 | F  | **110**  | Der Roboter muss Personen identifizieren können.|✅	||
 | NF | **111**  | Der Roboter muss eine Kamera haben.||✅|
 | F  | **112**  | Der Roboter muss nach Erkennung einer Person die Livesteuerung aktivieren.|✅	||
