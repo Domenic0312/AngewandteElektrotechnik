@@ -42,9 +42,13 @@
 
 ## Kolloquium (10.08.2020)
 
-| Aufgabe                                                                                                                | Zuständigkeit | 
+| Aufgabe                                                                                                                         | Zuständigkeit | 
 | ------------- | -------- |
-| [Implementierung](https://github.com/Domenic0312/AngewandteElektrotechnik/tree/master/Program/cSharp)       | Domenic, Katrin        | 
+| [Implementierung](https://github.com/Domenic0312/AngewandteElektrotechnik/tree/master/Program/cSharp)                           | Domenic, Katrin |
+| [Implementierung der Karte](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Program/cSharp/Karte.cs)        | Domenic        | 
+| [Implementierung der Sensoren](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Program/cSharp/Sensoren.cs)  | Domenic |
+| [Implementierung des Roboters](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Program/cSharp/Robot2.cs)    | Katrin |
+| [Implementierung der Logik](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Program/cSharp/robotLogic.cs)   | Katrin |
 
 
 ## 4. Meilenstein (17.08.2020)
