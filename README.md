@@ -14,6 +14,7 @@
   - [Justin Frommberger](https://github.com/JustinF97)
   - [Alexander Wilms](https://github.com/Citoxe)
 
+Siehe EXCEL Tabelle.
 
 ## 1. Meilenstein (20.07.2020)
 
@@ -33,8 +34,8 @@
 | ------------- | -------- |
 | [UseCase](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/UseCase.png)          | Justin        | 
 | [Block-Diagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/BlockDiagramm.png)       | Justin        |
-| [Auflistung-Hardware](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/abstrakte%20Hardware%20Analyse.md)   |    --     |
-| [Hardware-Software](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/Hardware_Festlegung.md)  |    --    |
+| [Auflistung-Hardware](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/abstrakte%20Hardware%20Analyse.md)   |    Alexander     |
+| [Hardware-Software](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Hardware%20und%20Design/Hardware_Festlegung.md)  |    Alexander    |
 | [Kontextdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Kontextdiagramm.pdf) | Katrin |
 | [Klassendiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/classDiagram.png) | Domenic |
 | [Sequenzdiagramm](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/SysML_UML_Diagrams/Sequenzdiagramm.pdf) | Katrin | 
@@ -42,9 +43,13 @@
 
 ## Kolloquium (10.08.2020)
 
-| Aufgabe                                                                                                                | Zuständigkeit | 
+| Aufgabe                                                                                                                         | Zuständigkeit | 
 | ------------- | -------- |
-| [Implementierung](https://github.com/Domenic0312/AngewandteElektrotechnik/tree/master/Program/cSharp)       | Domenic, Katrin        | 
+| [Implementierung](https://github.com/Domenic0312/AngewandteElektrotechnik/tree/master/Program/cSharp)                           | Domenic, Katrin |
+| [Implementierung der Karte](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Program/cSharp/Karte.cs)        | Domenic        | 
+| [Implementierung der Sensoren](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Program/cSharp/Sensoren.cs)  | Domenic |
+| [Implementierung des Roboters](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Program/cSharp/Robot2.cs)    | Katrin |
+| [Implementierung der Logik](https://github.com/Domenic0312/AngewandteElektrotechnik/blob/master/Program/cSharp/robotLogic.cs)   | Katrin |
 
 
 ## 4. Meilenstein (17.08.2020)
