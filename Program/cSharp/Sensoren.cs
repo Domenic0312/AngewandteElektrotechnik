@@ -11,12 +11,15 @@ namespace Sensoren
         public String Name;
 
         public void connect(){
-            Console.WriteLine("Verbindung zu Sensor {0} wurde aufgebaut. Pins: {1},{2}", Name, Pins[0], Pins[1]);
+            Console.WriteLine(
+            "Verbindung aufgebaut") ;               //zu Sensor {0} wurde aufgebaut. Pins: {1},{2}",Name, Pins[0], Pins[1]);
         }
         public void disconnect(){
-            Console.WriteLine("Verbindung zu Sensor {0} wurde beendet. Pins: {1},{2}", Name, Pins[0], Pins[1]);
+            Console.WriteLine(
+                "Verbindung geschlossen");            //zu Sensor {0} wurde beendet. Pins: {1},{2}", Name, Pins[0], Pins[1]);
         }
     }
+    
     class radioSensor:sensor{
         public radioSensor(String _Name, int _pinOne, int _pinTwo){
             Name = _Name;
@@ -35,7 +38,6 @@ namespace Sensoren
             Pins = new int[]{_pinOne, _pinTwo};
             connect();
         }
-
         public string isWater(int posX, int posY){
             string terrain = Karte.getTerrain(posX, posY);
             return terrain;
