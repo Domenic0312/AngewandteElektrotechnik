@@ -82,7 +82,8 @@ namespace RescueRobot
             Console.WriteLine("\nFahrweg: {0} Blöcke", gesamtWeg);
         }
 
-        bool fahreVonBis(int[] startpos, int[] endPos, List<distanceSensor> sensorik){
+        bool fahreVonBis(int[] startpos, int[] endPos, List<distanceSensor> sensorik)
+        {
             Console.WriteLine("");
             wayPoint p4 = logic.getWay(startpos, endPos, sensorik); // Rescue Object -> Startposition
             gesamtWeg += p4.distance;
